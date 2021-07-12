@@ -7,6 +7,7 @@ from hh.spiders.hhrures import HhruresSpider
 from hh.spiders.hhruResText import hhruResText
 
 if __name__ == '__main__':
+    print(dir(CrawlerProcess))
     crawler_settings = Settings()
     crawler_settings.setmodule(settings)
     process = CrawlerProcess(settings=crawler_settings)
