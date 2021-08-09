@@ -8,10 +8,8 @@ from datetime import date
 from scrapy.crawler import CrawlerProcess
 from scrapy.settings import Settings
 from hh import settings
-import time
 
 
-# ['Data', 'Data scientist', 'DevOps', 'Frontend', 'Golang', 'Intern', 'Java', 'Javascript', 'php', 'Python', 'Spark', 'SQL', 'Typescript']
 today = str(date.today())
 
 
@@ -63,25 +61,80 @@ class HhruSpider(scrapy.Spider):
 
 class HhruSpiderDS(HhruSpider):
     name = 'Data scientist'
-    start_urls = ['https://nn.hh.ru/search/vacancy?clusters=true&enable_snippets=true&search_field=name&experience=noExperience&from=cluster_experience&showClusters=true&text=' + name]  # без опыта по названию
-
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name] #по названию
 
 class HhruSpiderData(HhruSpider):
     name = 'Data'
-    start_urls = ['https://nn.hh.ru/search/vacancy?clusters=true&enable_snippets=true&search_field=name&experience=noExperience&from=cluster_experience&showClusters=true&text=' + name]  # без опыта по названию
-
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name] #по названию
 
 class HhruSpiderEPAM(HhruSpider):
     name = 'EPAM'
     start_urls = ['https://nn.hh.ru/search/vacancy?st=searchVacancy&employer_id=6769']  # EPAM
 
+class HhruSpiderDevOps(HhruSpider):
+    name = 'DevOps'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name] #по названию
+
+class HhruSpiderFrontend(HhruSpider):
+    name = 'Frontend'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name] #по названию
+
+class HhruSpiderGolang(HhruSpider):
+    name = 'Golang'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name] #по названию
+
+class HhruSpiderIntern(HhruSpider):
+    name = 'Intern'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name] #по названию
+
+class HhruSpiderJava(HhruSpider):
+    name = 'Java'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name] #по названию
+
+class HhruSpiderJavascript(HhruSpider):
+    name = 'Javascript'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name] #по названию
+
+class HhruSpiderphp(HhruSpider):
+    name = 'php'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name]  # по названию
+
+class HhruSpiderPython(HhruSpider):
+    name = 'Python'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name]  # по названию
+
+class HhruSpiderSpark(HhruSpider):
+    name = 'Spark'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&text=' + name]
+
+class HhruSpiderSQL(HhruSpider):
+    name = 'SQL'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&text=' + name]
+
+class HhruSpiderTypescript(HhruSpider):
+    name = 'Typescript'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&text=' + name]
+
+class HhruSpiderCpp(HhruSpider):
+    name = 'C%2B%2B'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name]  # по названию
 
 crawler_settings = Settings()
 crawler_settings.setmodule(settings)
 process = CrawlerProcess(settings=crawler_settings)
-process.crawl(HhruSpiderData)
-# time.sleep(30)
-process.crawl(HhruSpiderDS)
-# time.sleep(30)
+# process.crawl(HhruSpiderData)
+# process.crawl(HhruSpiderDS)
 # process.crawl(HhruSpiderEPAM)
+# process.crawl(HhruSpiderDevOps)
+# process.crawl(HhruSpiderFrontend)
+# process.crawl(HhruSpiderGolang)
+# process.crawl(HhruSpiderIntern)
+# process.crawl(HhruSpiderJava)
+# process.crawl(HhruSpiderJavascript)
+# process.crawl(HhruSpiderphp)
+# process.crawl(HhruSpiderPython)
+# process.crawl(HhruSpiderSpark)
+# process.crawl(HhruSpiderSQL)
+# process.crawl(HhruSpiderTypescript)
+process.crawl(HhruSpiderCpp)
 process.start()
