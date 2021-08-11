@@ -6,4 +6,5 @@ Frontend frameworks:
 PHP frameworks:
 ![php](https://github.com/ksn38/hh/blob/main/php.png)
  
-![php](https://github.com/ksn38/hh/blob/main/DS.png)
+ML libraries:
+![DS](https://github.com/ksn38/hh/blob/main/DS.png)
