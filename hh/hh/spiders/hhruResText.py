@@ -12,7 +12,7 @@ today = str(date.today())
 t = []
 
 class hhruResText(scrapy.Spider):
-    name = 'hhrures'
+    name = 'hhrurestext'
     allowed_domains = ['hh.ru']
     start_urls = ['https://hh.ru/search/resume?clusters=true&exp_period=all_time&logic=normal&no_magic=false&order_by=relevance&pos=position&text=' + find]
     # start_urls = ['https://nn.hh.ru/search/resume?clusters=true&exp_period=all_time&logic=normal&no_magic=false&order_by=relevance&pos=full_text&area=1679&text=' + find]

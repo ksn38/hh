@@ -48,8 +48,8 @@ class FlruSpider(scrapy.Spider):
         #yield response.follow(next_page, callback=self.parse)
 
 
-crawler_settings = Settings()
-crawler_settings.setmodule(settings)
-process = CrawlerProcess(settings=crawler_settings)
-process.crawl(FlruSpider)
-process.start()
+# crawler_settings = Settings()
+# crawler_settings.setmodule(settings)
+# process = CrawlerProcess(settings=crawler_settings)
+# process.crawl(FlruSpider)
+# process.start()
