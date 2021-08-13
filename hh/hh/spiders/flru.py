@@ -10,6 +10,7 @@ from scrapy.settings import Settings
 from hh import settings
 import time
 import random
+import re
 
 
 # ['Data', 'Data scientist', 'DevOps', 'Frontend', 'Golang', 'Intern', 'Java', 'Javascript', 'php', 'Python', 'Spark', 'SQL', 'Typescript']
@@ -17,7 +18,8 @@ today = str(date.today())
 
 
 class FlruSpider(scrapy.Spider):
-    list_tags = []
+    list_headers = []
+    list_key_words = []
     name = 'flru'
     allowed_domains = ['fl.ru']
     start_urls = ['https://www.fl.ru/projects/']
@@ -31,10 +33,14 @@ class FlruSpider(scrapy.Spider):
 
 
     def spider_closed(self):
-        c = Counter(self.list_tags)
-        df = pd.DataFrame(c.items(), columns=['tag', 'val'])
-        # a.sort_values('val', ascending=False).to_csv('E:\\Temp\\tags\\' + find + '\\' + find + today + '.csv', index=False, encoding='utf-8')
-        df.to_csv('E:\\Temp\\' + self.name + today + '.csv', index=False, encoding='utf-8')
+        f = open('E:\\Temp\\flru' + today + '.txt', 'w', encoding='utf-8')
+        out = (''.join(map(str, self.list_headers)))
+        #print(out)
+        f.write(out)
+        f.close()
+        tags_dict = Counter(self.list_key_words)
+        tags_df = pd.DataFrame(tags_dict.items(), columns=['tag', 'val'])
+        tags_df.sort_values('val', ascending=False).to_csv('E:\\Temp\\flru' + today + '.csv', index=False, encoding='utf-8')
 
     def parse(self, response: HtmlResponse):
         # next_page = response.xpath("//a[@class='b-pager__link']/@href").extract_first()
@@ -42,14 +48,18 @@ class FlruSpider(scrapy.Spider):
         next_page = '?page=' + str(self.counter) + '&kind=5'
         # print(next_page)
         header = response.xpath("//a[@class='b-post__link']/text()").extract()
-        print(len(header))
-        price = response.xpath('//div[@data-id="qa-lenta-1"]//text()').extract()
-        print('price',price)
-        #yield response.follow(next_page, callback=self.parse)
+        for i in header:
+            i = str(i).lower()
+            #print(i)
+            if len(re.findall('1с\S{0,}|\S{1,}24\s|[A-z-]{2,}|битрикс', i)) > 0:
+                self.list_headers.append(i + '\n')
+                self.list_key_words.extend(re.findall('1с\S{0,}|\S{1,}24\s|[A-z-]{2,}|битрикс', i))
+        #if self.counter < 3:
+        yield response.follow(next_page, callback=self.parse)
 
 
-# crawler_settings = Settings()
-# crawler_settings.setmodule(settings)
-# process = CrawlerProcess(settings=crawler_settings)
-# process.crawl(FlruSpider)
-# process.start()
+crawler_settings = Settings()
+crawler_settings.setmodule(settings)
+process = CrawlerProcess(settings=crawler_settings)
+process.crawl(FlruSpider)
+process.start()
