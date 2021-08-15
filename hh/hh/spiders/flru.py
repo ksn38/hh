@@ -13,7 +13,6 @@ import random
 import re
 
 
-# ['Data', 'Data scientist', 'DevOps', 'Frontend', 'Golang', 'Intern', 'Java', 'Javascript', 'php', 'Python', 'Spark', 'SQL', 'Typescript']
 today = str(date.today())
 
 
@@ -43,7 +42,6 @@ class FlruSpider(scrapy.Spider):
         tags_df.sort_values('val', ascending=False).to_csv('E:\\Temp\\flru' + today + '.csv', index=False, encoding='utf-8')
 
     def parse(self, response: HtmlResponse):
-        # next_page = response.xpath("//a[@class='b-pager__link']/@href").extract_first()
         self.counter += 1
         next_page = '?page=' + str(self.counter) + '&kind=5'
         # print(next_page)
@@ -51,9 +49,9 @@ class FlruSpider(scrapy.Spider):
         for i in header:
             i = str(i).lower()
             #print(i)
-            if len(re.findall('1с\S{0,}|\S{1,}24\s|[A-z-]{2,}|битрикс', i)) > 0:
+            if len(re.findall('1с\S{0,}|\S{0,}24|[^\s,\.]{0,}[A-z]{1,}[^\s,\.]{0,}|битрикс', i)) > 0:
                 self.list_headers.append(i + '\n')
-                self.list_key_words.extend(re.findall('1с\S{0,}|\S{1,}24\s|[A-z-]{2,}|битрикс', i))
+                self.list_key_words.extend(re.findall('1с\S{0,}|\S{0,}24|[^\s,\.]{0,}[A-z]{1,}[^\s,\.]{0,}|битрикс', i))
         #if self.counter < 3:
         yield response.follow(next_page, callback=self.parse)
 
