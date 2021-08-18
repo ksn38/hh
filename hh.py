@@ -17,4 +17,4 @@ for j in dirs:
         df = df[df['tag'].map(lambda x: len(re.findall('\d|[A-z]', x))) > 0]        
         df['norm_val'] = df.val/df.val.iloc[0]
         df['Date'] = re.findall('[0-9]{4}-[0-9]{2}-[0-9]{2}', k)[0]
-        df[['Date', 'tag', 'norm_val']].iloc[:49].to_csv('C:\\Users\\ksn\\hh\\tags\\' + j + '\\' + k, header=False, index=False, encoding='utf-8', sep=',')
+        df[['Date', 'tag', 'norm_val']].iloc[:99].to_csv('C:\\Users\\ksn\\hh\\tags\\' + j + '\\' + k, header=False, index=False, encoding='utf-8', sep=',')

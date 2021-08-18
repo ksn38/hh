@@ -32,14 +32,14 @@ class FlruSpider(scrapy.Spider):
 
 
     def spider_closed(self):
-        f = open('E:\\Temp\\flru' + today + '.txt', 'w', encoding='utf-8')
+        f = open('E:\\Temp\\fl' + today + '.txt', 'w', encoding='utf-8')
         out = (''.join(map(str, self.list_headers)))
         #print(out)
         f.write(out)
         f.close()
         tags_dict = Counter(self.list_key_words)
         tags_df = pd.DataFrame(tags_dict.items(), columns=['tag', 'val'])
-        tags_df.sort_values('val', ascending=False).to_csv('E:\\Temp\\flru' + today + '.csv', index=False, encoding='utf-8')
+        tags_df.sort_values('val', ascending=False).to_csv('E:\\Temp\\fl' + today + '.csv', index=False, encoding='utf-8')
 
     def parse(self, response: HtmlResponse):
         self.counter += 1

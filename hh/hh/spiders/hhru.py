@@ -129,6 +129,11 @@ class HhruSpiderCpp(HhruSpider):
     name = 'C%2B%2B'
     start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name]  # по названию
 
+class HhruSpiderCs(HhruSpider):
+    list_tags = []
+    name = 'C%23'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name]  # по названию
+
 
 crawler_settings = Settings()
 crawler_settings.setmodule(settings)
@@ -148,4 +153,5 @@ process.crawl(HhruSpiderSpark)
 process.crawl(HhruSpiderSQL)
 process.crawl(HhruSpiderTypescript)
 process.crawl(HhruSpiderCpp)
+process.crawl(HhruSpiderCs)
 process.start()
