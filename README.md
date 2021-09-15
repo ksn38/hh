@@ -1,5 +1,9 @@
 # Statistic based on tags from job search website
  
+
+Python frameworks:
+![php](https://github.com/ksn38/hh/blob/main/Python.png)
+ 
 Frontend frameworks:
 ![Frontend](https://github.com/ksn38/hh/blob/main/Frontend.png)
  
