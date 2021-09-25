@@ -1,12 +1,11 @@
 import pandas as pd
 import numpy as np
 from os import listdir
-from os.path import isfile, join
 import re
 
 
 mypath = 'fl/keywords'
-files = [i for i in listdir(mypath)]
+files = listdir(mypath)
 
 for k in files:
     df = pd.read_csv(mypath + '/' + k)
