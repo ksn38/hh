@@ -1,4 +1,4 @@
-# Statistic based on tags from job search website
+## Statistic based on tags from job search website (normalized to the most popular tag for each sample)
  
 
 Python frameworks:
