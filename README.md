@@ -2,13 +2,13 @@
  
 
 Python frameworks:
-![php](https://github.com/ksn38/hh/blob/main/Python.png)
+![php](https://github.com/ksn38/hh/blob/main/png/Python.png)
  
 Frontend frameworks:
-![Frontend](https://github.com/ksn38/hh/blob/main/Frontend.png)
+![Frontend](https://github.com/ksn38/hh/blob/main/png/Frontend.png)
  
 PHP frameworks:
-![php](https://github.com/ksn38/hh/blob/main/php.png)
+![php](https://github.com/ksn38/hh/blob/main/png/php.png)
  
 ML libraries:
-![DS](https://github.com/ksn38/hh/blob/main/DS.png)
+![DS](https://github.com/ksn38/hh/blob/main/png/DS.png)
