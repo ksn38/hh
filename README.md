@@ -4,10 +4,10 @@
 Python frameworks:
 ![php](https://github.com/ksn38/hh/blob/main/png/Python.png)
  
-Frontend frameworks and CMS:
+Frontend frameworks:
 ![Frontend](https://github.com/ksn38/hh/blob/main/png/Frontend.png)
  
-PHP frameworks:
+PHP frameworks and CMS:
 ![php](https://github.com/ksn38/hh/blob/main/png/php.png)
  
 ML libraries:
