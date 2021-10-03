@@ -1,4 +1,4 @@
-### Statistic on tags from job search website
+## Statistic on tags from job search website
  
  
 Python frameworks:
@@ -14,8 +14,7 @@ ML libraries:
 ![DS](https://github.com/ksn38/hh/blob/main/png/DS.png)
  
  
--
-###Statistic on keywords from work marketplace for freelancing
+## Statistic on keywords from work marketplace for freelancing
  
  
 PHP frameworks and CMS:
