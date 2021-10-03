@@ -1,10 +1,10 @@
-## Statistic based on tags from job search website (normalized to the most popular tag for each sample)
+## Statistic on tags from job search website
  
-
+ 
 Python frameworks:
 ![php](https://github.com/ksn38/hh/blob/main/png/Python.png)
  
-Frontend frameworks:
+Frontend frameworks and CMS:
 ![Frontend](https://github.com/ksn38/hh/blob/main/png/Frontend.png)
  
 PHP frameworks:
@@ -12,3 +12,13 @@ PHP frameworks:
  
 ML libraries:
 ![DS](https://github.com/ksn38/hh/blob/main/png/DS.png)
+ 
+ 
+##Statistic on keywords from work marketplace for freelancing
+ 
+ 
+PHP frameworks and CMS:
+![php](https://github.com/ksn38/hh/blob/main/png/php2.png)
+ 
+Programming languages:
+![DS](https://github.com/ksn38/hh/blob/main/png/fl.png)
