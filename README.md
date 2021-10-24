@@ -17,9 +17,8 @@ ML libraries:
  
 ## Statistic on keywords from work marketplace for freelancing (fl.ru)
  
+Programming languages:
+![DS](https://github.com/ksn38/hh/blob/main/png/fl.png)
  
 PHP frameworks and CMS:
 ![php](https://github.com/ksn38/hh/blob/main/png/php2.png)
- 
-Programming languages:
-![DS](https://github.com/ksn38/hh/blob/main/png/fl.png)
