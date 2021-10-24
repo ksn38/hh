@@ -1,4 +1,4 @@
-## Statistic on tags from job search website (hh.ru)
+## Statistic from job search website (hh.ru)
  
 Daily statistics - http://130.193.57.192/hh/
  
