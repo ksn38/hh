@@ -5,9 +5,12 @@ from scrapy import signals
 from collections import Counter
 import pandas as pd
 from datetime import date
+from scrapy.crawler import CrawlerProcess
+from scrapy.settings import Settings
+from hh import settings
 
 
-find = 'php'
+find = 'Data scientist'
 today = str(date.today())
 t = []
 
@@ -28,7 +31,7 @@ class HhruresSpider(scrapy.Spider):
         print(t)
         c = Counter(t)
         a = pd.DataFrame(c.items(), columns=['tag', 'count'])
-        a.sort_values('count', ascending=False).to_csv('E:\\Temp\\BKATHH' + find + today + '.csv', index=False, encoding='utf-8')
+        a.sort_values('count', ascending=False).to_csv('E:\\Temp\\res_' + find + today + '.csv', index=False, encoding='utf-8')
 
     def parse(self, response: HtmlResponse):
         next_page = response.xpath("//a[@data-qa='pager-next']/@href").extract_first()
@@ -43,3 +46,9 @@ class HhruresSpider(scrapy.Spider):
         tags = response.xpath("//span[@class='bloko-tag__section bloko-tag__section_text']/text()").extract()
         #yield HhItem (tags=tags)
         t.extend(tags)
+
+crawler_settings = Settings()
+crawler_settings.setmodule(settings)
+process = CrawlerProcess(settings=crawler_settings)
+process.crawl(HhruresSpider)
+process.start()

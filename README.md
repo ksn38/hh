@@ -3,22 +3,25 @@
 Daily statistics - http://130.193.57.192/hh/
  
 Python frameworks:
-![php](https://github.com/ksn38/hh/blob/main/png/Python.png)
+![php](https://github.com/ksn38/hh/blob/main/PowerBI/png/Python.png)
  
 Frontend frameworks:
-![Frontend](https://github.com/ksn38/hh/blob/main/png/Frontend.png)
+![Frontend](https://github.com/ksn38/hh/blob/main/PowerBI/png/Frontend.png)
  
 PHP frameworks and CMS:
-![php](https://github.com/ksn38/hh/blob/main/png/php.png)
+![php](https://github.com/ksn38/hh/blob/main/PowerBI/png/php.png)
  
 ML libraries:
-![DS](https://github.com/ksn38/hh/blob/main/png/DS.png)
+![DS](https://github.com/ksn38/hh/blob/main/PowerBI/png/DS.png)
  
  
 ## Statistic on keywords from work marketplace for freelancing (fl.ru)
  
 Programming languages:
-![DS](https://github.com/ksn38/hh/blob/main/png/fl.png)
+![DS](https://github.com/ksn38/hh/blob/main/PowerBI/png/fl.png)
  
 PHP frameworks and CMS:
-![php](https://github.com/ksn38/hh/blob/main/png/php2.png)
+![php](https://github.com/ksn38/hh/blob/main/PowerBI/png/php2.png)
+
+Frontend frameworks:
+![Frontend](https://github.com/ksn38/hh/blob/main/PowerBI/png/Frontend2.png)
