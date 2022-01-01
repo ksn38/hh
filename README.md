@@ -24,3 +24,6 @@ PHP frameworks and CMS:
  
 ML libraries:
 ![DS](https://github.com/ksn38/hh/blob/main/PowerBI/png/DS.png)
+
+In Python tags:
+![php](https://github.com/ksn38/hh/blob/main/PowerBI/png/Python2.png)
