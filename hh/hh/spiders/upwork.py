@@ -29,7 +29,8 @@ class UpworkSpider(scrapy.Spider):
     def spider_closed(self):
         tags_dict = Counter(self.list_tag)
         tags_df = pd.DataFrame(tags_dict.items(), columns=['tag', 'val'])
-        tags_df.sort_values('val', ascending=False).to_csv('/tmp/upwork' + today + '.csv', index=False, encoding='utf-8')
+        #tags_df.sort_values('val', ascending=False).to_csv('/tmp/upwork' + today + '.csv', index=False, encoding='utf-8')
+        tags_df.sort_values('val', ascending=False).to_csv('E:\\Temp\\upwork' + today + '.csv', index=False, encoding='utf-8')
 
     def parse(self, response: HtmlResponse):
         self.counter += 1

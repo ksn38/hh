@@ -134,24 +134,32 @@ class HhruSpiderCs(HhruSpider):
     name = 'C%23'
     start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&search_field=name&text=' + name]  # по названию
 
+class HhruSpiderMicroservice(HhruSpider):
+    list_tags = []
+    name = 'микросервис'
+    start_urls = ['https://hh.ru/search/vacancy?st=searchVacancy&text=' + name]
 
 crawler_settings = Settings()
 crawler_settings.setmodule(settings)
 process = CrawlerProcess(settings=crawler_settings)
-process.crawl(HhruSpiderDS)
-process.crawl(HhruSpiderEPAM)
-process.crawl(HhruSpiderData)
-process.crawl(HhruSpiderDevOps)
-process.crawl(HhruSpiderFrontend)
-process.crawl(HhruSpiderGolang)
-process.crawl(HhruSpiderIntern)
-process.crawl(HhruSpiderJava)
-process.crawl(HhruSpiderJavascript)
-process.crawl(HhruSpiderphp)
-process.crawl(HhruSpiderPython)
-process.crawl(HhruSpiderSpark)
-process.crawl(HhruSpiderSQL)
-process.crawl(HhruSpiderTypescript)
-process.crawl(HhruSpiderCpp)
-process.crawl(HhruSpiderCs)
+
+# process.crawl(HhruSpiderDS)
+# process.crawl(HhruSpiderData)
+# process.crawl(HhruSpiderDevOps)
+# process.crawl(HhruSpiderFrontend)
+# process.crawl(HhruSpiderGolang)
+# process.crawl(HhruSpiderJava)
+# process.crawl(HhruSpiderJavascript)
+# process.crawl(HhruSpiderphp)
+# process.crawl(HhruSpiderPython)
+# process.crawl(HhruSpiderSpark)
+# process.crawl(HhruSpiderSQL)
+# process.crawl(HhruSpiderTypescript)
+# process.crawl(HhruSpiderCpp)
+# process.crawl(HhruSpiderCs)
+
+# process.crawl(HhruSpiderEPAM)
+# process.crawl(HhruSpiderIntern)
+process.crawl(HhruSpiderMicroservice)
+
 process.start()

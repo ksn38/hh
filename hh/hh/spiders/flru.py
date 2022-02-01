@@ -1,6 +1,5 @@
 import scrapy
 from scrapy.http import HtmlResponse
-from hh.items import HhItem
 from scrapy import signals
 from collections import Counter
 import pandas as pd
@@ -8,8 +7,6 @@ from datetime import date
 from scrapy.crawler import CrawlerProcess
 from scrapy.settings import Settings
 from hh import settings
-import time
-import random
 import re
 
 
