@@ -59,7 +59,7 @@ ApiVac('EPAM', start_url_EPAM).start()
 time.sleep(30)
 
 start_url_text = 'https://api.hh.ru/vacancies?st=searchVacancy&text='
-for i in ['Spark', 'SQL', 'Typescript', 'микросервис']:
+for i in ['Spark', 'SQL', 'Typescript', '%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81']:
     ApiVac(i, start_url_text + i).start()
     time.sleep(30)
 

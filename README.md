@@ -1,20 +1,17 @@
-## Statistic on keywords in headers from work marketplace for freelancing (fl.ru)
+## Statistic on tags from freelancer.com
  
-Programming languages:
-![DS](https://github.com/ksn38/hh/blob/main/PowerBI/png/fl.png)
+![flcom](https://github.com/ksn38/hh/blob/main/PowerBI/png/flcom.png)
  
-PHP frameworks and CMS:
-![php](https://github.com/ksn38/hh/blob/main/PowerBI/png/php2.png)
+## Statistic on keywords in headers from fl.ru
  
-Frontend frameworks:
-![Frontend](https://github.com/ksn38/hh/blob/main/PowerBI/png/Frontend2.png)
+![flru](https://github.com/ksn38/hh/blob/main/PowerBI/png/flru.png)
  
 ## Statistic on tags in vacancies from job search website (hh.ru)
  
 Daily statistics - http://130.193.57.192/hh/
  
 Python frameworks:
-![php](https://github.com/ksn38/hh/blob/main/PowerBI/png/Python.png)
+![Python](https://github.com/ksn38/hh/blob/main/PowerBI/png/Python.png)
  
 Frontend frameworks:
 ![Frontend](https://github.com/ksn38/hh/blob/main/PowerBI/png/Frontend.png)
@@ -26,4 +23,4 @@ ML libraries:
 ![DS](https://github.com/ksn38/hh/blob/main/PowerBI/png/DS.png)
 
 In Python tags:
-![php](https://github.com/ksn38/hh/blob/main/PowerBI/png/Python2.png)
+![Python2](https://github.com/ksn38/hh/blob/main/PowerBI/png/Python2.png)
