@@ -26,12 +26,13 @@ class ApiVac:
         print(len(vac_list['items']))
         if len(vac_list['items']) == 0:
             return
+        time.sleep(2)
         for vac_index in range(len(vac_list['items'])):
-            time.sleep(0.5)
             vac = json.loads(requests.get(vac_list['items'][vac_index]['url']).content.decode("utf-8"))
             vac_tags = [tag['name'] for tag in vac['key_skills']]
             self.list_tags.extend(vac_tags)
             print(vac_tags)
+            time.sleep(2)
         yield self.parsevac(counter)
 
     def start(self):
