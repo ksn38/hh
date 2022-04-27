@@ -24,3 +24,6 @@ ML libraries:
 
 In Python tags:
 ![Python2](https://github.com/ksn38/hh/blob/main/PowerBI/png/Python2.png)
+
+In C++ tags:
+![Python2](https://github.com/ksn38/hh/blob/main/PowerBI/png/cpp.png)
