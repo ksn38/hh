@@ -27,6 +27,6 @@ for i in ['Spark', 'Typescript', '%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%
     ApiVac(i, start_url_text + i).start()
     time.sleep(10)
     
-# start_url_EPAM = 'https://api.hh.ru/vacancies?st=searchVacancy&employer_id=6085050'
-# ApiVac('EPAM', start_url_EPAM).start()
+start_url_EPAM = 'https://api.hh.ru/vacancies?st=searchVacancy&employer_id=6085050'
+ApiVac('EPAM', start_url_EPAM).start()
 
