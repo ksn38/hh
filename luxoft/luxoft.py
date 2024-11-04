@@ -24,7 +24,7 @@ while (i < 20):
             location.extend(re.findall('"location":"(.*?)"', val[0].replace('\\', '')))
 
     if len(subtitle) == len(title) == len(location):
-        pd.DataFrame({'subtitle': subtitle, 'title': title, 'location': location}).to_csv('C:\\Users\\ksn\\hh\\luxoft\\source\\luxoft' + today + '.csv', encoding='utf-8', header=False, index=False)
+        pd.DataFrame({'subtitle': subtitle, 'title': title, 'location': location}).to_csv('./source/luxoft' + today + '.csv', encoding='utf-8', header=False, index=False)
     else:
       break
     

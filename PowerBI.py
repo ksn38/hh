@@ -47,11 +47,11 @@ class Data_for_PowerBI_hh(Data_for_PowerBI):
             df['norm_val'] = df.val/df.val.iloc[0]
             df[['Date', 'tag', 'norm_val']].iloc[:99].to_csv(self.output_path + '/' + f, header=False, index=False, encoding='utf-8', sep=',')
 
-Data_for_PowerBI_hh('E:\\Temp\\tags\\Intern\\', '\d|[А-яё]', 'tags/Intern_cyr').norm_and_save_files()
+Data_for_PowerBI_hh('../Temp/tags/Intern/', '\d|[А-яё]', 'tags/Intern_cyr').norm_and_save_files()
 
-dirs = listdir('E:\\Temp\\tags\\')
+dirs = listdir('../Temp/tags/')
 for d in dirs:
-    Data_for_PowerBI_hh('E:\\Temp\\tags\\' + d, '\d|[A-z]', 'tags/' + d).norm_and_save_files()
+    Data_for_PowerBI_hh('../Temp/tags/' + d, '\d|[A-z]', 'tags/' + d).norm_and_save_files()
 
 
 mypath = 'luxoft/source/'

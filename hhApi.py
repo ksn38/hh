@@ -47,14 +47,8 @@ class ApiVac:
                 print(Counter(self.list_tags))
                 tags_dict = Counter(self.list_tags)
                 tags_df = pd.DataFrame(tags_dict.items(), columns=['tag', 'val'])
-                if os.name == "posix":
-                    tags_df.sort_values('val', ascending=False).to_csv('../tags/' + self.name + '/' + self.name + today + '.csv', index=False, encoding='utf-8')
-                    tags_df.sort_values('val', ascending=False).to_csv('../tags/' + self.name + today + '.csv', index=False, encoding='utf-8')
-                elif os.name == "nt":
-                    tags_df.sort_values('val', ascending=False).to_csv('E:\\Temp\\tags\\' + self.name + '\\' + self.name + today + '.csv',
-                                                                    index=False, encoding='utf-8')
-                    tags_df.sort_values('val', ascending=False).to_csv('E:\\Temp\\' + self.name + today + '.csv',
-                                                                    index=False, encoding='utf-8')
+                tags_df.sort_values('val', ascending=False).to_csv('../Temp/tags/' + self.name + '/' + self.name + today + '.csv', index=False, encoding='utf-8')
+                tags_df.sort_values('val', ascending=False).to_csv('../Temp/tags/' + self.name + today + '.csv', index=False, encoding='utf-8')
                 break
 
 start_url_EPAM = 'https://api.hh.ru/vacancies?st=searchVacancy&employer_id=6085050'
