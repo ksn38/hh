@@ -296,39 +296,6 @@ iOS|44|MVC|-7
 Web API|44|Java|-7
 SQL Server|43|Scrum|-4
 
-C%23
-winners|increase|losers|decrease
--|-|-|-
-Apache Kafka|305|SVN|-60
-Kafka|282|.net core|-49
-JSON|270|Delphi|-46
-SOLID|251|jQuery|-45
-API|233|Atlassian Jira|-45
-Kubernetes|211|TFS|-39
-IT|193|HTML5|-35
-ASP.NET Core|183|MS Visual Studio|-35
-React|167|Microsoft Visual Studio|-33
-REST API|141|ADO.NET|-32
-REST|136|ORACLE|-30
-RabbitMQ|129|Windows Forms|-23
-PostgreSQL|126|.NET Framework|-22
-Docker|118|Unity|-22
-.NET Core|114|HTML|-21
-NET Core|92|Design Patterns|-21
-MongoDB|75|Unit Testing|-20
-LINQ|73|Terrasoft CRM|-17
-NoSQL|73|Visual Studio C#|-14
-.Net|72|MS SQL Server|-14
-Angular|69|Bootstrap|-13
-TypeScript|69|ASP.NET MVC|-12
-Xamarin|65|CSS|-12
-Jira|63|MSSQL|-10
-Python|61|JavaScript|-10
-QA|57|CSS3|-9
-iOS|44|MVC|-7
-Web API|44|Java|-7
-SQL Server|43|Scrum|-4
-
 Data scientist
 winners|increase|losers|decrease
 -|-|-|-

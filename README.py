@@ -63,7 +63,7 @@ for i in ('python', 'php', 'Java', 'Javascript', 'Typescript', 'Frontend', 'C%2B
             readme.append('\nC#\n')
             f = open('../Temp/README/' + i, 'r', encoding='utf-8')
             readme.append(f.read())
-        if i == 'C%2B%2B':
+        elif i == 'C%2B%2B':
             readme.append('\nC++\n')
             f = open('../Temp/README/' + i, 'r', encoding='utf-8')
             readme.append(f.read())
