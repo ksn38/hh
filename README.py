@@ -1,5 +1,6 @@
 import pandas as pd
 from os import listdir
+import numpy as np
 
 def csv_df(mypath):
     mean = pd.read_csv(mypath + listdir(mypath)[0], names=["Date", 'tag', 'val'])
@@ -23,10 +24,10 @@ def csv_df(mypath):
     mean_begin = mean.iloc[:12].mean()
     mean_end = mean.iloc[-6:].mean()
     change = ((mean_end - mean_begin)*100/mean_begin).sort_values(ascending=False)
-    change = change.astype(float)
     change = change.dropna()
+    change = change.astype('int64')
     change1 = change.sort_values()
-    num_head = int(change.count()/2)
+    num_head = round(change.count()/2)
     change = pd.DataFrame({'winners': change.head(num_head).index, 'increase': change.head(num_head).values, \
             'losers': change1.head(num_head).index, 'decrease': change1.head(num_head).values}, index=[i for i in range(num_head)])
     #change.to_csv('chage.csv', encoding='utf-8')
@@ -49,7 +50,7 @@ x = x.shift()
 x.iloc[0] = ['-','-','-','-']
 x.to_csv('../Temp/README/freelancer', sep='|', index=False)
 
-readme = ['### Changing tags from 2021\nfreelancer.com\n']
+readme = ['### Changing tags from 2021 in %\nfreelancer.com\n']
 
 f = open('../Temp/README/freelancer', 'r', encoding='utf-8')
 readme.append(f.read())
@@ -75,4 +76,5 @@ f = open('../Temp/README/fl', 'r', encoding='utf-8')
 readme.append('\nfl.ru\n' + f.read())
 
 f = open('README.md', 'w', encoding='utf-8')
-f.write(''.join(map(str, readme)))
+x = ''.join(map(str, readme))
+f.write(x.replace('.0', ''))
