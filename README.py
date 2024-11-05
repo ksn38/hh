@@ -19,7 +19,7 @@ def csv_df(mypath):
             meanf = pd.read_csv(mypath + f)
         meanf = meanf.rename(columns={'val': meanf['Date'].iloc[0]})
         meanf.drop('Date', axis=1, inplace=True)
-        mean = pd.merge(mean, meanf, how='left', on='tag')
+        mean = pd.merge(mean, meanf, how='outer', on='tag')
 
     mean = mean.T
     mean = mean.rename(columns=mean.loc['tag'])
