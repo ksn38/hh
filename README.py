@@ -1,6 +1,10 @@
 import pandas as pd
 from os import listdir
 import numpy as np
+from notebooks.lower_case import lower
+
+
+lower('./tags/')
 
 def csv_df(mypath):
     mean = pd.read_csv(mypath + listdir(mypath)[0], names=["Date", 'tag', 'val'])
@@ -50,6 +54,11 @@ x = x.shift()
 x.iloc[0] = ['-','-','-','-']
 x.to_csv('../Temp/README/freelancer', sep='|', index=False)
 
+x = csv_df('./luxoft/keywords_for_PowerBI/')
+x = x.shift()
+x.iloc[0] = ['-','-','-','-']
+x.to_csv('../Temp/README/luxoft', sep='|', index=False)
+
 readme = ['### Changing tags from 2021 in %\nfreelancer.com\n']
 
 f = open('../Temp/README/freelancer', 'r', encoding='utf-8')
@@ -74,6 +83,9 @@ for i in ('python', 'php', 'Java', 'Javascript', 'Typescript', 'Frontend', 'C%2B
 
 f = open('../Temp/README/fl', 'r', encoding='utf-8')
 readme.append('\nfl.ru\n' + f.read())
+
+f = open('../Temp/README/luxoft', 'r', encoding='utf-8')
+readme.append('\nluxoft\n' + f.read())
 
 f = open('README.md', 'w', encoding='utf-8')
 x = ''.join(map(str, readme))
