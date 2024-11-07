@@ -296,105 +296,6 @@ angular|69|ASP.NET MVC|-12
 ORM|66|C/C++|-10
 MVVM|66|JavaScript|-10
 
-Data scientist
-winners|increase|losers|decrease
--|-|-|-
-pyspark|389|Data Mining|-90
-mlflow|274|C++|-85
-apache airflow|261|Agile Project Management|-84
-A/B тесты|199|Statistica|-77
-airflow|193|grafana|-74
-scipy|175|Scrum|-72
-ml|172|Java|-71
-catboost|161|azure|-62
-matplotlib|141|Analytical skills|-61
-numpy|139|scala|-60
-plotly|137|sas|-59
-scikit-learn|135|MS SQL|-59
-jupyter notebook|133|elasticsearch|-58
-PyCharm|103|ORACLE|-57
-pandas|86|Django Framework|-56
-recommender systems|86|dwh|-53
-xgboost|86|SPSS|-52
-pytorch|83|VBA|-49
-PostgreSQL|82|tableau|-48
-JavaScript|81|aws|-48
-lightgbm|74|R|-46
-docker|72|PHP|-44
-computer vision|69|Mathematical Statistics|-41
-Teamleading|69|gpt-3|-40
-bert|69|opencv|-40
-hive|66|neural nets|-36
-Spark|62|search ranking|-35
-API|58|Apache Spark|-34
-a/b-experiments|56|Linux|-31
-
-data
-winners|increase|losers|decrease
--|-|-|-
-apache airflow|847|Data Mining|-85
-pyspark|370|MS PowerPoint|-63
-Apache Kafka|353|Atlassian Jira|-62
-kubernetes|227|scala|-62
-airflow|201|C++|-62
-dwh|162|Java|-59
-clickhouse|158|Google Analytics|-58
-A/B тесты|141|Bash|-57
-Power BI|117|Oracle Pl/SQL|-56
-matplotlib|110|Scrum|-55
-greenplum|94|hive|-54
-ml|83|Linux|-50
-MS Outlook|80|C#|-49
-numpy|78|aws|-48
-ETL|66|SSIS|-47
-scikit-learn|64|MS Access|-46
-API|45|it|-46
-Data Governance|45|JavaScript|-44
-ansible|41|BigQuery|-41
-Apache NiFi|41|Git|-40
-scipy|38|Business Intelligence Systems|-40
-Atlassian Confluence|38|MS SQL Server|-39
-pandas|37|MongoDB|-36
-pytorch|35|Agile Project Management|-34
-BI|33|Spark|-33
-PostgreSQL|33|R|-28
-MS Excel|33|informatica|-28
-computer vision|33|rest api|-25
-Django Framework|31|Apache Hive|-25
-
-devops
-winners|increase|losers|decrease
--|-|-|-
-Apache Kafka|363|CentOS|-69
-gitlab ci|262|SSH|-58
-grafana|261|Docker Swarm|-55
-clickhouse|243|CI|-55
-Unix Shell Scripts|231|C#|-54
-prometheus|214|aws|-51
-helm|206|Scrum|-49
-Docker-compose|187|Perl|-47
-elk|184|Cassandra|-46
-gitlab|169|NoSQL|-45
-kafka|164|Atlassian Jira|-44
-devops|156|Windows|-42
-IaC|151|azure|-42
-Proxmox|109|Java|-40
-elasticsearch|108|English|-35
-Nexus|95|Gradle|-34
-OpenStack|94|MySQL|-34
-kubernetes|88|Apache HTTP Server|-34
-RabbitMQ|85|hadoop|-28
-Node.js|78|Shell Scripting|-28
-ci/cd|77|blockchain|-26
-k8s|72|Puppet|-25
-ansible|69|Atlassian Confluence|-24
-Ubuntu|68|JavaScript|-21
-openshift|64|Apache Maven|-21
-terraform|57|PHP|-21
-azure devops|51|Python|-17
-haproxy|47|Hyper-V|-16
-ORACLE|40|SQL|-16
-
 Golang
 winners|increase|losers|decrease
 -|-|-|-
@@ -461,104 +362,71 @@ BPMN|92|Active Directory|-39
 Linux|90|Data Analysis|-39
 Django Framework|89|C#|-38
 
-intern
+Data scientist
 winners|increase|losers|decrease
 -|-|-|-
-BPMN|377|Analytical skills|-80
-UML|271|Email маркетинг|-78
-PostgreSQL|262|Business English|-77
-QA|251|SMS маркетинг|-66
-ERP-системы на базе 1С|228|Time management|-63
-SMM|221|Tilda|-55
-1С: Управление Торговлей|210|MS Access|-49
-1С: Бухгалтерия|200|1С: Розница|-46
-Business Development|185|SAP|-41
-Test case|172|MS Outlook|-37
-Docker|169|Компас-3D|-35
-ORACLE|165|JDBC|-28
-Golang|159|Node.js|-27
-React|152|Negotiation skills|-23
-Битрикс24|150|Corporate Finance|-21
-MS SQL Server|149|MS PowerPoint|-21
-1С программирование|148|iOS|-21
-Знание MS Office|146|Bash|-19
-1С: Предприятие 8|142|1С: Управление персоналом|-17
-Adobe Illustrator|141|B2C продажи|-14
-Power BI|132|Project management|-13
-Unity|130|Adobe After Effect|-7
-MS Word|124|E-Mail Marketing|-7
-Scrum|120|Data Analysis|-7
-Создание конфигурации 1С|119|C++|-1
-SEO|119|MS Visio|-1
-Python|117|CRM|-1
-MS Excel|110|data science|0
-Spring Framework|110|Excel|2
+pyspark|389|Data Mining|-90
+mlflow|274|C++|-85
+apache airflow|261|Agile Project Management|-84
+A/B тесты|199|Statistica|-77
+airflow|193|grafana|-74
+scipy|175|Scrum|-72
+ml|172|Java|-71
+catboost|161|azure|-62
+matplotlib|141|Analytical skills|-61
+numpy|139|scala|-60
+plotly|137|sas|-59
+scikit-learn|135|MS SQL|-59
+jupyter notebook|133|elasticsearch|-58
+PyCharm|103|ORACLE|-57
+pandas|86|Django Framework|-56
+recommender systems|86|dwh|-53
+xgboost|86|SPSS|-52
+pytorch|83|VBA|-49
+PostgreSQL|82|tableau|-48
+JavaScript|81|aws|-48
+lightgbm|74|R|-46
+docker|72|PHP|-44
+computer vision|69|Mathematical Statistics|-41
+Teamleading|69|gpt-3|-40
+bert|69|opencv|-40
+hive|66|neural nets|-36
+Spark|62|search ranking|-35
+API|58|Apache Spark|-34
+a/b-experiments|56|Linux|-31
 
-Intern_cyr
+data
 winners|increase|losers|decrease
 -|-|-|-
-Ответственность|557|Ведение переговоров|-30
-Умение работать в коллективе|487|Холодные продажи|-15
-Сбор и анализ информации|443|Английский язык|0
-Аналитический склад ума|408|Грамотная речь|1
-Обучаемость|369|Обучение персонала|2
-Тестирование|368|Работа в команде|5
-Базы данных|355|Креативность|9
-Работа с документами|335|Грамотность|15
-Аналитическое мышление|334|Активные продажи|21
-Консультирование клиентов|334|Прямые продажи|22
-Разработка технических заданий|333|ООП|23
-Стрессоустойчивость|304|Пользователь ПК|24
-Бизнес-анализ|304|Умение работать в команде|27
-1С: Бухгалтерия|289|Консультирование|32
-Документооборот|288|Управление проектами|42
-Стажировка|287|Поиск и привлечение клиентов|42
-1С: Управление Торговлей|285|Навыки продаж|45
-Аналитика|280|Клиентоориентированность|46
-Работа с оргтехникой|279|Опытный пользователь ПК|49
-Системный анализ|278|Планирование карьеры|50
-Анализ данных|275|Холодные звонки|50
-Работа с клиентами|269|Работа с возражениями|54
-Техническая поддержка|269|Работа с людьми|55
-1С программирование|269|Заключение договоров|57
-Коммуникабельность|261|Подбор персонала|59
-Написание статей|258|Ориентация на результат|65
-Навыки переговоров|255|Управление продажами|71
-Работа с большим объемом информации|255|Развитие продаж|71
-Интернет маркетинг|253|Проведение презентаций|76
-
-микросервис
-winners|increase|losers|decrease
--|-|-|-
-Apache Kafka|443|graphql|-57
-REST API|303|Selenium|-42
-JSON|297|Git|-41
-devops|231|JavaScript|-38
-grpc|229|Hibernate ORM|-37
-Swagger|216|CSS|-33
-rest api|214|Java SE|-33
-swagger|179|MySQL|-31
-gRPC|176|Node.js|-31
-spring boot|166|HTML|-26
-API|153|Linux|-25
-clickhouse|143|TCP/IP|-25
-Spring Boot|134|Unix|-24
-ci/cd|130|Angular|-23
-DevOps|129|Scrum|-22
-BPMN|125|Spring Framework|-21
-SOAP|121|Apache Maven|-19
-Gitlab|110|Symfony|-19
-it|109|C#|-17
-kafka|106|MongoDB|-16
-gitlab|99|PHP|-15
-postman|98|Prometheus|-14
-XML|95|DDD|-13
-Hibernate|94|.NET Framework|-13
-UML|89|Atlassian Jira|-12
-HTTP|84|Backend|-10
-pytest|83|MS SQL Server|-9
-QA|82|Администрирование серверов Linux|-9
-Pytest|82|Nginx|-8
+apache airflow|847|Data Mining|-85
+pyspark|370|MS PowerPoint|-63
+Apache Kafka|353|Atlassian Jira|-62
+kubernetes|227|scala|-62
+airflow|201|C++|-62
+dwh|162|Java|-59
+clickhouse|158|Google Analytics|-58
+A/B тесты|141|Bash|-57
+Power BI|117|Oracle Pl/SQL|-56
+matplotlib|110|Scrum|-55
+greenplum|94|hive|-54
+ml|83|Linux|-50
+MS Outlook|80|C#|-49
+numpy|78|aws|-48
+ETL|66|SSIS|-47
+scikit-learn|64|MS Access|-46
+API|45|it|-46
+Data Governance|45|JavaScript|-44
+ansible|41|BigQuery|-41
+Apache NiFi|41|Git|-40
+scipy|38|Business Intelligence Systems|-40
+Atlassian Confluence|38|MS SQL Server|-39
+pandas|37|MongoDB|-36
+pytorch|35|Agile Project Management|-34
+BI|33|Spark|-33
+PostgreSQL|33|R|-28
+MS Excel|33|informatica|-28
+computer vision|33|rest api|-25
+Django Framework|31|Apache Hive|-25
 
 spark
 winners|increase|losers|decrease
@@ -593,6 +461,105 @@ teradata|49|terraform|-20
 pytorch|47|hive|-19
 Cassandra|46|MS PowerPoint|-18
 
+devops
+winners|increase|losers|decrease
+-|-|-|-
+Apache Kafka|363|CentOS|-69
+gitlab ci|262|SSH|-58
+grafana|261|Docker Swarm|-55
+clickhouse|243|CI|-55
+Unix Shell Scripts|231|C#|-54
+prometheus|214|aws|-51
+helm|206|Scrum|-49
+Docker-compose|187|Perl|-47
+elk|184|Cassandra|-46
+gitlab|169|NoSQL|-45
+kafka|164|Atlassian Jira|-44
+devops|156|Windows|-42
+IaC|151|azure|-42
+Proxmox|109|Java|-40
+elasticsearch|108|English|-35
+Nexus|95|Gradle|-34
+OpenStack|94|MySQL|-34
+kubernetes|88|Apache HTTP Server|-34
+RabbitMQ|85|hadoop|-28
+Node.js|78|Shell Scripting|-28
+ci/cd|77|blockchain|-26
+k8s|72|Puppet|-25
+ansible|69|Atlassian Confluence|-24
+Ubuntu|68|JavaScript|-21
+openshift|64|Apache Maven|-21
+terraform|57|PHP|-21
+azure devops|51|Python|-17
+haproxy|47|Hyper-V|-16
+ORACLE|40|SQL|-16
+
+intern
+winners|increase|losers|decrease
+-|-|-|-
+BPMN|377|Analytical skills|-80
+UML|271|Email маркетинг|-78
+PostgreSQL|262|Business English|-77
+QA|251|SMS маркетинг|-66
+ERP-системы на базе 1С|228|Time management|-63
+SMM|221|Tilda|-55
+1С: Управление Торговлей|210|MS Access|-49
+1С: Бухгалтерия|200|1С: Розница|-46
+Business Development|185|SAP|-41
+Test case|172|MS Outlook|-37
+Docker|169|Компас-3D|-35
+ORACLE|165|JDBC|-28
+Golang|159|Node.js|-27
+React|152|Negotiation skills|-23
+Битрикс24|150|Corporate Finance|-21
+MS SQL Server|149|MS PowerPoint|-21
+1С программирование|148|iOS|-21
+Знание MS Office|146|Bash|-19
+1С: Предприятие 8|142|1С: Управление персоналом|-17
+Adobe Illustrator|141|B2C продажи|-14
+Power BI|132|Project management|-13
+Unity|130|Adobe After Effect|-7
+MS Word|124|E-Mail Marketing|-7
+Scrum|120|Data Analysis|-7
+Создание конфигурации 1С|119|C++|-1
+SEO|119|MS Visio|-1
+Python|117|CRM|-1
+MS Excel|110|data science|0
+Spring Framework|110|Excel|2
+
+микросервис
+winners|increase|losers|decrease
+-|-|-|-
+Apache Kafka|443|graphql|-57
+REST API|303|Selenium|-42
+JSON|297|Git|-41
+devops|231|JavaScript|-38
+grpc|229|Hibernate ORM|-37
+Swagger|216|CSS|-33
+rest api|214|Java SE|-33
+swagger|179|MySQL|-31
+gRPC|176|Node.js|-31
+spring boot|166|HTML|-26
+API|153|Linux|-25
+clickhouse|143|TCP/IP|-25
+Spring Boot|134|Unix|-24
+ci/cd|130|Angular|-23
+DevOps|129|Scrum|-22
+BPMN|125|Spring Framework|-21
+SOAP|121|Apache Maven|-19
+Gitlab|110|Symfony|-19
+it|109|C#|-17
+kafka|106|MongoDB|-16
+gitlab|99|PHP|-15
+postman|98|Prometheus|-14
+XML|95|DDD|-13
+Hibernate|94|.NET Framework|-13
+UML|89|Atlassian Jira|-12
+HTTP|84|Backend|-10
+pytest|83|MS SQL Server|-9
+QA|82|Администрирование серверов Linux|-9
+Pytest|82|Nginx|-8
+
 EPAM
 winners|increase|losers|decrease
 -|-|-|-
@@ -607,39 +574,6 @@ Azure|436|C#|289
 PowerShell|427|JDBC|336
 Администрирование серверов Linux|425|PostgreSQL|373
 Jenkins|413|Kubernetes|379
-
-fl.ru
-winners|increase|losers|decrease
--|-|-|-
-usdt|546|nft|-80
-reels|376|instagram|-70
-ai|300|fb|-70
-tg|252|description|-63
-mini|191|rust|-60
-for|182|facebook|-58
-next|170|angular|-58
-blender|166|yii2|-55
-yelp|162|discord|-54
-specialist|150|net|-54
-dex|142|swift|-54
-ton|142|cart|-52
-vfx|141|vue|-50
-nest|134|html5|-50
-dll|133|title|-49
-play|126|twitter|-47
-data|120|cs|-46
-pagespeed|116|symfony|-46
-vpn|114|page|-45
-wifi|114|content|-44
-form|113|java|-44
-smarty|113|json|-44
-media|110|landing|-44
-github|110|developer|-43
-what|110|adwords|-42
-telegram|106|laravel|-42
-web3|105|word|-40
-up|100|umi|-40
-app|99|wildberries|-39
 
 luxoft
 winners|increase|losers|decrease
@@ -673,3 +607,36 @@ MuleSoft|51|Safety|-57
 MXML|51|EMEA|-56
 MLC|49|strong|-55
 MS|48|HAL|-55
+
+fl.ru
+winners|increase|losers|decrease
+-|-|-|-
+usdt|546|nft|-80
+reels|376|instagram|-70
+ai|300|fb|-70
+tg|252|description|-63
+mini|191|rust|-60
+for|182|facebook|-58
+next|170|angular|-58
+blender|166|yii2|-55
+yelp|162|discord|-54
+specialist|150|net|-54
+dex|142|swift|-54
+ton|142|cart|-52
+vfx|141|vue|-50
+nest|134|html5|-50
+dll|133|title|-49
+play|126|twitter|-47
+data|120|cs|-46
+pagespeed|116|symfony|-46
+vpn|114|page|-45
+wifi|114|content|-44
+form|113|java|-44
+smarty|113|json|-44
+media|110|landing|-44
+github|110|developer|-43
+what|110|adwords|-42
+telegram|106|laravel|-42
+web3|105|word|-40
+up|100|umi|-40
+app|99|wildberries|-39

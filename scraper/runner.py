@@ -3,7 +3,6 @@ from scrapy.settings import Settings
 import settings
 from freelancer import FlcomSpider
 from fl import FlruSpider
-import time
 
 
 crawler_settings = Settings()

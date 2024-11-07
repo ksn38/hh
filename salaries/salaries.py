@@ -40,7 +40,7 @@ def sal(items, flag):
                                 salaries.append(i['salary']['from'])
                     except TypeError:
                         pass
-                time.sleep(3)
+                time.sleep(2)
         
             if len(salaries) > 0:
                 avg_sal.at[item, colmns[j]] = int(pd.Series(salaries).median())
@@ -55,5 +55,4 @@ profs = ['сварщик', 'повар', 'медсестра', 'слесарь',
          'психолог', 'тракторист', 'чпу']
 
 sal(langs, "langs")
-time.sleep(30)
 sal(profs, "profs")

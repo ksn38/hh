@@ -7,19 +7,16 @@ from notebooks.lower_case import lower
 lower('./tags/')
 
 def csv_df(mypath):
-    mean = pd.read_csv(mypath + listdir(mypath)[0], names=["Date", 'tag', 'val'])
-    if mean['Date'].iloc[0] == 'Date':
-        mean = pd.read_csv(mypath + listdir(mypath)[0])
+    mean = pd.read_csv(mypath + listdir(mypath)[0])
     mean = mean.rename(columns={'val': mean['Date'].iloc[0]})
     mean.drop('Date', axis=1, inplace=True)
 
     for f in listdir(mypath)[1:]:
-        meanf = pd.read_csv(mypath + f, names=["Date", 'tag', 'val'])
-        if meanf['Date'].iloc[0] == 'Date':
-            meanf = pd.read_csv(mypath + f)
+        meanf = pd.read_csv(mypath + f)
         meanf = meanf.rename(columns={'val': meanf['Date'].iloc[0]})
         meanf.drop('Date', axis=1, inplace=True)
         mean = pd.merge(mean, meanf, how='outer', on='tag')
+        print(f)
 
     mean = mean.T
     mean = mean.rename(columns=mean.loc['tag'])
@@ -65,8 +62,8 @@ f = open('../Temp/README/freelancer', 'r', encoding='utf-8')
 readme.append(f.read())
 
 for i in ('python', 'php', 'Java', 'Javascript', 'Typescript', 'Frontend', 'C%2B%2B', 'C%23', \
-         'Data scientist', 'data', 'devops', 'Golang', 'sql', 'intern', 'Intern_cyr', 'микросервис', \
-         'spark', 'EPAM'):
+         'Golang', 'sql', 'Data scientist', 'data', 'spark', 'devops', 'intern', 'микросервис', \
+         'EPAM'):
     if i[:3] != 'res':
         if i == 'C%23':
             readme.append('\nC#\n')
@@ -81,11 +78,11 @@ for i in ('python', 'php', 'Java', 'Javascript', 'Typescript', 'Frontend', 'C%2B
             f = open('../Temp/README/' + i, 'r', encoding='utf-8')
             readme.append(f.read())
 
-f = open('../Temp/README/fl', 'r', encoding='utf-8')
-readme.append('\nfl.ru\n' + f.read())
-
 f = open('../Temp/README/luxoft', 'r', encoding='utf-8')
 readme.append('\nluxoft\n' + f.read())
+
+f = open('../Temp/README/fl', 'r', encoding='utf-8')
+readme.append('\nfl.ru\n' + f.read())
 
 f = open('README.md', 'w', encoding='utf-8')
 x = ''.join(map(str, readme))
