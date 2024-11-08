@@ -23,6 +23,7 @@ def lower(mypath):
             for i, t in zip(df.index, df.tag):
                 if t.lower() in set(target_tags):
                     df.at[i, 'tag'] = t.lower()
+            df[['Date', 'tag', 'val']].to_csv(mypath + d +'/' + f, index=False, encoding='utf-8', sep=',')
             if max(Counter(df.tag).values()) > 1:
                 df = df.groupby(['tag'], as_index=False).sum()
                 df['Date'] = re.findall('[0-9]{4}-[0-9]{2}-[0-9]{2}', f)[0]
