@@ -28,7 +28,7 @@ def csv_df(mypath):
     change = change.dropna()
     change = change.astype('int64')
     change1 = change.sort_values()
-    num_head = round(change.count()/2)
+    num_head = int(change.count()/2)
     change = pd.DataFrame({'winners': change.head(num_head).index, 'increase': change.head(num_head).values, \
             'losers': change1.head(num_head).index, 'decrease': change1.head(num_head).values}, index=[i for i in range(num_head)])
     #change.to_csv('chage.csv', encoding='utf-8')

@@ -28,7 +28,7 @@ class Data_for_PowerBI_fl_freelancer(Data_for_PowerBI):
             df = self.open_file(f)
             df['norm_val'] = df.val/df.val.iloc[0]
             df['val'] = df['norm_val']
-            df[['Date', 'tag', 'val']].iloc[:299].to_csv(self.output_path + '/' + f, index=False, encoding='utf-8', sep=',')
+            df[['Date', 'tag', 'val']].iloc[:199].to_csv(self.output_path + '/' + f, index=False, encoding='utf-8', sep=',')
     
 
 Data_for_PowerBI_fl_freelancer('freelancer/tags', 'freelancer/tags_for_PowerBI').norm_and_save_files()
@@ -68,10 +68,10 @@ for file in files:
         i = re.sub('\sAnalyst', '_Analyst', i)
         i = i.split(' ')
         for j in i:
-            if j != '':
+            if j != '' and len(j) > 1:
                 keywords.append(j)
 
-    df = pd.DataFrame(sorted(Counter(keywords).items(), key=lambda x: x[1], reverse=True), columns=['tag', 'val']).iloc[:299]
+    df = pd.DataFrame(sorted(Counter(keywords).items(), key=lambda x: x[1], reverse=True), columns=['tag', 'val']).iloc[:149]
     df['norm_val'] = df.val/df.val.iloc[0]
     df['val'] = df['norm_val']
     df['Date'] = re.findall('[0-9]{4}-[0-9]{2}-[0-9]{2}', file)[0]
