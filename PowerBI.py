@@ -46,7 +46,7 @@ class Data_for_PowerBI_hh(Data_for_PowerBI):
             df = df[df['tag'].map(lambda x: len(re.findall(self.reg, x))) > 0]
             df['norm_val'] = df.val/df.val.iloc[0]
             df.val = df['norm_val']
-            df[['Date', 'tag', 'val']].iloc[:74].to_csv(self.output_path + '/' + f, index=False, encoding='utf-8', sep=',')
+            df[['Date', 'tag', 'val']].iloc[:99].to_csv(self.output_path + '/' + f, index=False, encoding='utf-8', sep=',')
 
 Data_for_PowerBI_hh('../Temp/tags/Intern/', '\d|[А-яё]', 'tags/Intern_cyr').norm_and_save_files()
 
