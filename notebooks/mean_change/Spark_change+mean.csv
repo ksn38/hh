@@ -1,0 +1,76 @@
+,change
+airflow,353
+ETL,130
+kubernetes,215
+clickhouse,220
+dwh,167
+docker,81
+PostgreSQL,41
+ml,141
+machine learning,139
+greenplum,88
+Spark,11
+Apache Spark,344
+Apache Kafka,396
+Python,3
+hadoop,6
+kafka,28
+Power BI,159
+ci/cd,86
+SQL,-6
+Big Data,-4
+teradata,49
+Tableau,55
+Cassandra,41
+Apache Hive,135
+hive,-19
+Java,-60
+pandas,78
+Data Analysis,9
+Linux,-52
+devops,39
+scala,-57
+NoSQL,-5
+MongoDB,72
+MS SQL,-17
+data science,31
+Git,-61
+ORACLE,-37
+UML,59
+AWS,-40
+Bash,-49
+Flink,-89
+react,47
+MySQL,0
+ansible,-6
+Spring Framework,-73
+JavaScript,-11
+Data Mining,-76
+it,-4
+Jenkins,1
+MS SQL Server,-59
+Agile Project Management,-8
+REST,-13
+nlp,35
+pytorch,26
+elasticsearch,-7
+Redis,39
+Snowflake,44
+Oracle Pl/SQL,-40
+English,-4
+Node.js,12
+azure,12
+BPMN,26
+RabbitMQ,-12
+HDFS,46
+MS Excel,30
+BI,-9
+openshift,0
+terraform,-26
+golang,0
+tensorflow,6
+Prometheus,5
+rest api,39
+Data Engineering,-24
+go,-43
+Agile,-32

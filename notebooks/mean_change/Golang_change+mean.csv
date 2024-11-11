@@ -1,0 +1,72 @@
+,change
+kafka,55
+kubernetes,41
+clickhouse,57
+docker,3
+go,-2
+PostgreSQL,-5
+golang,-8
+grpc,35
+API,90
+RabbitMQ,-5
+Redis,-9
+rest api,45
+backend,49
+Linux,-33
+Apache Kafka,268
+SQL,-34
+Git,-45
+NoSQL,5
+ci/cd,46
+gitlab,8
+REST,-27
+MySQL,-43
+HTTP,32
+ssl,117
+highload,83
+PHP,-52
+MongoDB,-54
+Python,-61
+grafana,117
+JSON,152
+elasticsearch,-22
+solid,121
+Java,-68
+nats,-29
+Microservices,-21
+C++,-77
+Prometheus,-31
+Atlassian Jira,-76
+JavaScript,-60
+it,-89
+Teamleading,2
+graphql,-23
+AWS,-58
+Unit Testing,-17
+Consul,157
+Nginx,-52
+Node.js,-52
+k8s,-67
+C/C++,-48
+devops,-16
+TDD,-72
+MS SQL,-52
+C#,-52
+WebSocket,14
+Scrum,-60
+TCP/IP,-57
+SOAP,-15
+HTML,-69
+Lua,-41
+Bash,-48
+C,-74
+ELK,-17
+Symfony,-66
+Agile,23
+DDD,-16
+Android,-38
+Spring Framework,-41
+iOS,-28
+Django Framework,-62
+gitlab ci,8
+solidity,-22

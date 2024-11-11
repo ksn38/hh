@@ -27,17 +27,14 @@ def csv_df(mypath):
     change = ((mean_end - mean_begin)*100/mean_begin)
     change = change.dropna()
     change = change.astype('int64')
-    mean_rank = pd.DataFrame(mean.mean().rank(), columns=['mean_rank'])
-    change_rank = pd.DataFrame(change.rank(), columns=['change_rank'])
-    x = pd.merge(mean_rank, change_rank, left_index=True, right_index=True)
+    x = pd.merge(mean.mean().rank().rename('mean_rank'), change.rank().rename('change_rank'), left_index=True, right_index=True)
+    x = pd.merge(x, change.rename('percent'), left_index=True, right_index=True)
     x['rank'] = x['mean_rank'] + x['change_rank']
-    x.sort_values('rank', ascending=False, inplace=True)
-    change = pd.DataFrame(change, columns=['increase'])
-    change = pd.merge(change, x, left_index=True, right_index=True).sort_values('rank', ascending=False)
+    change = x.sort_values('rank', ascending=False)
     change1 = change.sort_values('rank')
     num_head = int((change.count()/2)[0])
-    change = pd.DataFrame({'winners': change.index[:num_head], 'change': change['increase'].iloc[:num_head].values, \
-            'losers': change1.index[:num_head], 'changе': change1['increase'].iloc[:num_head].values}, index=[i for i in range(num_head)])
+    change = pd.DataFrame({'winners': change.index[:num_head], 'change': change['percent'].iloc[:num_head].values, \
+            'losers': change1.index[:num_head], 'changе': change1['percent'].iloc[:num_head].values}, index=[i for i in range(num_head)])
     return change.head(30) 
 
 readme = ['### Changing tags from 2021 in % (sorted by change and original value)\nfreelancer.com\n']

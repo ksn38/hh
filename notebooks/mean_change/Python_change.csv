@@ -1,0 +1,80 @@
+,0
+fastapi,1133
+pytest,501
+kubernetes,399
+kafka,291
+sqlalchemy,289
+rest api,271
+ci/cd,227
+JSON,216
+Django,215
+API,187
+QA,184
+Qt,170
+TCP/IP,161
+clickhouse,154
+typescript,154
+ETL,147
+Spark,139
+docker,129
+Celery,114
+Selenium,113
+NoSQL,112
+RabbitMQ,111
+Test case,93
+redux,92
+Tornado,92
+react,90
+Bash,81
+it,81
+numpy,78
+HTTP,51
+Agile,51
+backend,49
+C#,48
+golang,47
+airflow,46
+asyncio,44
+solid,42
+elasticsearch,39
+REST,39
+MATLAB,36
+django rest framework,35
+azure,34
+Redis,32
+Big Data,32
+ansible,31
+aiohttp,31
+go,30
+Android,27
+pandas,25
+Unit Testing,25
+SOAP,24
+Node.js,23
+drf,14
+ml,6
+PostgreSQL,0
+Python,0
+Flask,-1
+Jenkins,-3
+SQL,-16
+iOS,-17
+MongoDB,-18
+Selenium IDE,-19
+Linux,-19
+XML,-19
+Nginx,-20
+PHP,-20
+MS SQL,-22
+Scrum,-22
+AWS,-26
+C++,-28
+Java,-30
+HTML,-32
+JavaScript,-39
+Git,-39
+Atlassian Jira,-46
+Unix,-49
+Django Framework,-53
+MySQL,-54
+CSS,-56
