@@ -46,7 +46,7 @@ class FlruSpider(scrapy.Spider):
         for i in header:
             i = str(i).lower()
             #print(i)
-            if len(re.findall('1с\S{0,}|\S{0,}24|\w{0,}[A-z]{1,}[\w#+]{0,}|битрикс', i)) > 0:
+            if len(re.findall('1с\S{0,}|\S{0,}24|\w{0,}[A-z]{1,}[\w#+]{0,}|битрикс', i)) > 1:
                 self.list_headers.append(i + '\n')
                 self.list_key_words.extend(re.findall('1с\S{0,}|\S{0,}24|\w{0,}[A-z]{1,}[\w#+]{0,}|битрикс', i))
         #if self.counter < 3:

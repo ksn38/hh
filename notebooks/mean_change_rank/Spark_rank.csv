@@ -1,0 +1,106 @@
+,rank
+airflow,455.0
+ETL,453.0
+kubernetes,449.0
+clickhouse,449.0
+dwh,448.0
+apache airflow,443.0
+greenplum,441.0
+ml,439.0
+docker,437.5
+pyspark,437.0
+machine learning,437.0
+PostgreSQL,437.0
+Apache Spark,436.0
+Apache Kafka,436.0
+kafka,430.0
+Power BI,428.0
+Spark,425.0
+ci/cd,423.0
+hadoop,419.5
+Python,418.5
+devops,410.0
+SQL,408.5
+Big Data,407.0
+Cassandra,405.5
+tableau,403.0
+Apache Hive,400.0
+teradata,398.0
+MongoDB,397.0
+pandas,396.0
+data science,394.0
+Amazon Web Services,392.0
+Data Analysis,391.0
+UML,387.5
+ansible,386.5
+hive,383.0
+NoSQL,382.0
+MS SQL,378.0
+Linux,374.5
+Jenkins,373.0
+Java,373.0
+ORACLE,370.5
+scala,370.0
+MySQL,367.5
+pytorch,367.0
+react,366.0
+Git,365.0
+Databricks,365.0
+grafana,363.0
+it,363.0
+aws,360.0
+JavaScript,358.5
+Snowflake,358.5
+Bash,357.5
+REST,355.0
+nlp,354.5
+elasticsearch,352.0
+Spring Framework,346.0
+BPMN,344.0
+Node.js,340.5
+Data Mining,338.0
+MS SQL Server,335.0
+azure,333.5
+C++,332.0
+Oracle Pl/SQL,326.0
+Flink,325.0
+Agile Project Management,322.0
+hdfs,319.0
+Redis,317.5
+nifi,314.0
+English,309.5
+C#,309.0
+Django Framework,301.0
+BI,293.0
+MS Excel,282.0
+prometheus,267.5
+RabbitMQ,267.0
+Apache Maven,265.5
+HTML,262.5
+Scrum,255.5
+tensorflow,252.5
+golang,243.5
+rest api,242.0
+CentOS,230.5
+openshift,228.5
+Teamleading,228.0
+vertica,218.5
+numpy,218.0
+QA,215.5
+terraform,211.0
+go,206.5
+CSS,203.5
+spring,200.0
+impala,196.5
+kotlin,193.0
+k8s,182.0
+MS PowerPoint,181.0
+Agile,177.5
+R,174.0
+informatica,170.5
+elk,162.0
+Apache,150.0
+Zabbix,143.0
+data engineering,127.5
+Nginx,119.0
+jupyter notebook,117.0
