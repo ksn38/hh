@@ -36,11 +36,11 @@ def csv_df(mypath):
     change = pd.merge(change, x, left_index=True, right_index=True).sort_values('rank', ascending=False)
     change1 = change.sort_values('rank')
     num_head = int((change.count()/2)[0])
-    change = pd.DataFrame({'winners': change.index[:num_head], 'increase': change['increase'].iloc[:num_head].values, \
-            'losers': change1.index[:num_head], 'decrease': change1['increase'].iloc[:num_head].values}, index=[i for i in range(num_head)])
+    change = pd.DataFrame({'winners': change.index[:num_head], 'change': change['increase'].iloc[:num_head].values, \
+            'losers': change1.index[:num_head], 'changе': change1['increase'].iloc[:num_head].values}, index=[i for i in range(num_head)])
     return change.head(30) 
 
-readme = ['### Changing tags from 2021 in %\nfreelancer.com\n']
+readme = ['### Changing tags from 2021 in % (sorted by change and original value)\nfreelancer.com\n']
 
 freelancer = csv_df('./freelancer/tags_for_PowerBI/')
 freelancer = freelancer.shift()
