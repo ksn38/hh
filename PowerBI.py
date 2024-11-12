@@ -66,12 +66,15 @@ for file in files:
         i = re.sub('Data\s', 'Data_', i)
         i = re.sub('\sManager', '_Manager', i)
         i = re.sub('\sAnalyst', '_Analyst', i)
+        i = re.sub('\sLearning', '_Learning', i)
+        i = re.sub('\send', '_end', i)
+        i = re.sub('\sStack', '_Stack', i)
         i = i.split(' ')
         for j in i:
-            if j != '' and len(j) > 1:
+            if len(j) > 1 and j not in ('with', 'and', 'IT', 'to', 'in', 'for', 'or', 'experience'):
                 keywords.append(j)
 
-    df = pd.DataFrame(sorted(Counter(keywords).items(), key=lambda x: x[1], reverse=True), columns=['tag', 'val']).iloc[:99]
+    df = pd.DataFrame(sorted(Counter(keywords).items(), key=lambda x: x[1], reverse=True), columns=['tag', 'val']).iloc[:149]
     df['norm_val'] = df.val/df.val.iloc[0]
     df['val'] = df['norm_val']
     df['Date'] = re.findall('[0-9]{4}-[0-9]{2}-[0-9]{2}', file)[0]

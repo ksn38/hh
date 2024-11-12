@@ -29,9 +29,10 @@ def csv_df(mypath):
     change = change.astype('int64')
     x = pd.merge(mean.mean().rank().rename('mean_rank'), change.rank().rename('change_rank'), left_index=True, right_index=True)
     x = pd.merge(x, change.rename('percent'), left_index=True, right_index=True)
-    x['rank'] = x['mean_rank'] + x['change_rank']
+    x['rank'] = x['mean_rank']/3 + x['change_rank']
     change = x.sort_values('rank', ascending=False)
-    change1 = change.sort_values('percent')
+    x['rank1'] = (x['mean_rank'].max() - x['mean_rank'])/6 + x['change_rank']
+    change1 = x.sort_values('rank1')
     num_head = int((change.count()/2)[0])
     change = pd.DataFrame({'winners': change.index[:num_head], 'increase': change['percent'].iloc[:num_head].values, \
             'losers': change1.index[:num_head], 'decrease': change1['percent'].iloc[:num_head].values}, index=[i for i in range(num_head)])
