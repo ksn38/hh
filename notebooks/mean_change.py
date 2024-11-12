@@ -26,10 +26,10 @@ def csv_df(mypath):
     change = change.dropna()
     change = change.astype('int64')
     x = pd.merge(mean.mean().rank().rename('mean_rank'), change.rank().rename('change_rank'), left_index=True, right_index=True)
-    x = pd.merge(x, change.rename('change'), left_index=True, right_index=True)
-    x['rank'] = x['mean_rank'] + x['change_rank']
-    x.sort_values('rank', ascending=False, inplace=True)
-    x['change'].to_csv('mean_change/' + re.findall('\D+', f)[0] + '_change+mean.csv', sep=',', encoding='utf-8')
+    x = pd.merge(x, change.rename('percent'), left_index=True, right_index=True)
+    x['rank'] = x['mean_rank']/3 + x['change_rank']
+    change = x.sort_values('rank', ascending=False)
+    change['percent'].to_csv('csv/' + re.findall('\D+', f)[0] + '.csv', sep=',', encoding='utf-8')
 
 for i in ('python', 'php', 'Java', 'Javascript', 'Typescript', 'Frontend', 'C%2B%2B', \
          'Golang', 'sql', 'Data scientist', 'data', 'spark', 'devops', 'intern', 'микросервис', \

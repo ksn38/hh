@@ -64,14 +64,18 @@ for file in files:
     for i in headers:
         i = re.sub('[^A-z+#]', ' ', i)
         i = re.sub('Data\s', 'Data_', i)
+        i = re.sub('\sMode', '_Mode', i)
         i = re.sub('\sManager', '_Manager', i)
+        i = re.sub('\sManagement', '_Management', i)
         i = re.sub('\sAnalyst', '_Analyst', i)
+        i = re.sub('\sspeaker', '_speaker', i)
         i = re.sub('\sLearning', '_Learning', i)
         i = re.sub('\send', '_end', i)
         i = re.sub('\sStack', '_Stack', i)
+        i = re.sub('\sLead', '_Lead', i)
         i = i.split(' ')
         for j in i:
-            if len(j) > 1 and j not in ('with', 'and', 'IT', 'to', 'in', 'for', 'or', 'experience'):
+            if len(j) > 1 and j not in ('with', 'and', 'IT', 'to', 'in', 'for', 'or', 'experience', 'of', 'Project'):
                 keywords.append(j)
 
     df = pd.DataFrame(sorted(Counter(keywords).items(), key=lambda x: x[1], reverse=True), columns=['tag', 'val']).iloc[:149]

@@ -31,12 +31,12 @@ def csv_df(mypath):
     x = pd.merge(x, change.rename('percent'), left_index=True, right_index=True)
     x['rank'] = x['mean_rank']/3 + x['change_rank']
     change = x.sort_values('rank', ascending=False)
-    x['rank1'] = (x['mean_rank'].max() - x['mean_rank'])/6 + x['change_rank']
+    x['rank1'] = (x['mean_rank'].max() - x['mean_rank'])/5 + x['change_rank']
     change1 = x.sort_values('rank1')
     num_head = int((change.count()/2)[0])
     change = pd.DataFrame({'winners': change.index[:num_head], 'increase': change['percent'].iloc[:num_head].values, \
             'losers': change1.index[:num_head], 'decrease': change1['percent'].iloc[:num_head].values}, index=[i for i in range(num_head)])
-    return change.head(30) 
+    return change.head(37) 
 
 readme = ['### Changing tags from 2021 in %\nfreelancer.com\n']
 

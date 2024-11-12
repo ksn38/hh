@@ -26,7 +26,7 @@ def csv_df(mypath):
     change = change.dropna()
     change = change.astype('int64')
     change1 = change.sort_values()
-    change.to_csv('mean_change/' + re.findall('\D+', f)[0] + '_change.csv', sep=',', encoding='utf-8')
+    change.to_csv('csv/' + re.findall('\D+', f)[0] + '_change.csv', sep=',', encoding='utf-8')
 
 for i in ('python', 'php', 'Java', 'Javascript', 'Typescript', 'Frontend', 'C%2B%2B', \
          'Golang', 'sql', 'Data scientist', 'data', 'spark', 'devops', 'intern', 'микросервис', \
