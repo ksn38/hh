@@ -38,7 +38,7 @@ def csv_df(mypath):
             'losers': change1.index[:num_head], 'decrease': change1['percent'].iloc[:num_head].values}, index=[i for i in range(num_head)])
     return change.head(37) 
 
-readme = ['### Changing tags from 2021 in %\nfreelancer.com\n']
+readme = ['## Changing tags from 2021 in %\n### freelancer.com\n']
 
 freelancer = csv_df('./freelancer/tags_for_PowerBI/')
 freelancer = freelancer.shift()
@@ -51,21 +51,21 @@ for i in ('python', 'php', 'Java', 'Javascript', 'Typescript', 'Frontend', 'C%2B
          'EPAM'):
         if i[:3] != 'res':
           if i == 'C%23':
-              readme.append('\nC#\n')
+              readme.append('\n### C#\n')
               x = csv_df('./tags/' + i + '/')
               x = x.shift()
               x.iloc[0] = ['-','-','-','-']
               x = x.to_csv(sep='|', index=False).replace('\n', '')
               readme.append(x)
           elif i == 'C%2B%2B':
-              readme.append('\nC++\n')
+              readme.append('\n### C++\n')
               x = csv_df('./tags/' + i + '/')
               x = x.shift()
               x.iloc[0] = ['-','-','-','-']
               x = x.to_csv(sep='|', index=False).replace('\n', '')
               readme.append(x)
           else:
-              readme.append('\n' + i + '\n')
+              readme.append('\n### ' + i + '\n')
               x = csv_df('./tags/' + i + '/')
               x = x.shift()
               x.iloc[0] = ['-','-','-','-']
@@ -76,14 +76,14 @@ luxoft = csv_df('./luxoft/keywords_for_PowerBI/')
 luxoft = luxoft.shift()
 luxoft.iloc[0] = ['-','-','-','-']
 luxoft = luxoft.to_csv(sep='|', index=False).replace('\n', '')
-readme.append('\nluxoft\n')
+readme.append('\n### luxoft\n')
 readme.append(luxoft)
 
 fl = csv_df('./fl/keywords_for_PowerBI/')
 fl = fl.shift()
 fl.iloc[0] = ['-','-','-','-']
 fl = fl.to_csv(sep='|', index=False).replace('\n', '')
-readme.append('\nfl.ru\n')
+readme.append('\n### fl.ru\n')
 readme.append(fl)
 
 f = open('README.md', 'w', encoding='utf-8')

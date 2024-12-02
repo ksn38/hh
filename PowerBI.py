@@ -48,7 +48,7 @@ class Data_for_PowerBI_hh(Data_for_PowerBI):
             df.val = df['norm_val']
             df[['Date', 'tag', 'val']].iloc[:99].to_csv(self.output_path + '/' + f, index=False, encoding='utf-8', sep=',')
 
-Data_for_PowerBI_hh('../Temp/tags/Intern/', '\d|[А-яё]', 'tags/Intern_cyr').norm_and_save_files()
+#Data_for_PowerBI_hh('../Temp/tags/Intern/', '\d|[А-яё]', 'tags/Intern_cyr').norm_and_save_files()
 
 dirs = listdir('../Temp/tags/')
 for d in dirs:

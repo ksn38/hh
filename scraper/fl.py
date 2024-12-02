@@ -29,26 +29,27 @@ class FlruSpider(scrapy.Spider):
         return spider
 
     def spider_closed(self):
-        f = open('../fl/source/fl' + today + '.txt', 'w', encoding='utf-8')
+        f = open('./fl/source/fl' + today + '.txt', 'w', encoding='utf-8')
         out = (''.join(map(str, self.list_headers)))
         #print(out)
         f.write(out)
         f.close()
         tags_dict = Counter(self.list_key_words)
         tags_df = pd.DataFrame(tags_dict.items(), columns=['tag', 'val'])
-        tags_df.sort_values('val', ascending=False).to_csv('../fl/keywords/fl' + today + '.csv', index=False, encoding='utf-8')
+        tags_df.sort_values('val', ascending=False).to_csv('./fl/keywords/fl' + today + '.csv', index=False, encoding='utf-8')
 
     def parse(self, response: HtmlResponse):
         self.counter += 1
-        next_page = '?page=' + str(self.counter) + '&kind=5'
+        next_page = '?page=' + str(self.counter)
         # print(next_page)
         header = response.xpath("//a[@class='text-dark text-decoration-none link-hover-danger cursor-pointer']/text()").extract()
         for i in header:
             i = str(i).lower()
             #print(i)
-            if len(re.findall('1с\S{0,}|\S{0,}24|\w{0,}[A-z]{1,}[\w#+]{0,}|битрикс', i)) > 1:
+            if len(re.findall(r'1с\S{0,}|\S{0,}24|\w{0,}[A-z]{1,}[\w#+]{0,}|битрикс', i)) > 0:
+                #print(i)
                 self.list_headers.append(i + '\n')
-                self.list_key_words.extend(re.findall('1с\S{0,}|\S{0,}24|\w{0,}[A-z]{1,}[\w#+]{0,}|битрикс', i))
+                self.list_key_words.extend(re.findall(r'1с\S{0,}|\S{0,}24|\w{0,}[A-z]{1,}[\w#+]{0,}|битрикс', i))
         #if self.counter < 3:
         yield response.follow(next_page, callback=self.parse)
 

@@ -40,7 +40,7 @@ def sal(items, flag):
                                 salaries.append(i['salary']['from'])
                     except TypeError:
                         pass
-                time.sleep(2)
+                time.sleep(3)
         
             if len(salaries) > 0:
                 avg_sal.at[item, colmns[j]] = int(pd.Series(salaries).median())
