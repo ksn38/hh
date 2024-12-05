@@ -4,6 +4,7 @@ import re
 from os.path import isfile, join
 from collections import Counter
 import pandas as pd
+import time
 
 
 class Data_for_PowerBI:
@@ -49,10 +50,27 @@ class Data_for_PowerBI_hh(Data_for_PowerBI):
             df[['Date', 'tag', 'val']].iloc[:99].to_csv(self.output_path + '/' + f, index=False, encoding='utf-8', sep=',')
 
 #Data_for_PowerBI_hh('../Temp/tags/Intern/', '\d|[А-яё]', 'tags/Intern_cyr').norm_and_save_files()
-
+t1 = time.time()
 dirs = listdir('../Temp/tags/')
 for d in dirs:
-    Data_for_PowerBI_hh('../Temp/tags/' + d, '\d|[A-z]', 'tags/' + d).norm_and_save_files()
+    Data_for_PowerBI_hh('../Temp/tags/' + d, r'\d|[A-z]', 'tags/' + d).norm_and_save_files()
+t2 = time.time() - t1
+
+'''import threading
+
+threads = []
+# Создаем и запускаем 5 потоков
+for d in dirs:
+    thread = threading.Thread(target=Data_for_PowerBI_hh('../Temp/tags/' + d, r'\d|[A-z]', 'tags/' + d).norm_and_save_files)
+    threads.append(thread)
+    thread.start()
+
+# Ожидаем завершения всех потоков
+for thread in threads:
+    thread.join()
+    
+print(t2)
+print(time.time() - t1)'''
 
 
 mypath = 'luxoft/source/'
@@ -62,17 +80,17 @@ for file in files:
     keywords = []
     headers = pd.read_csv(mypath + file, header=None)[1].to_list()
     for i in headers:
-        i = re.sub('[^A-z+#]', ' ', i)
-        i = re.sub('Data\s', 'Data_', i)
-        i = re.sub('\sMode', '_Mode', i)
-        i = re.sub('\sManager', '_Manager', i)
-        i = re.sub('\sManagement', '_Management', i)
-        i = re.sub('\sAnalyst', '_Analyst', i)
-        i = re.sub('\sspeaker', '_speaker', i)
-        i = re.sub('\sLearning', '_Learning', i)
-        i = re.sub('\send', '_end', i)
-        i = re.sub('\sStack', '_Stack', i)
-        i = re.sub('\sLead', '_Lead', i)
+        i = re.sub(r'[^A-z+#]', ' ', i)
+        i = re.sub(r'Data\s', 'Data_', i)
+        i = re.sub(r'\sMode', '_Mode', i)
+        i = re.sub(r'\sManager', '_Manager', i)
+        i = re.sub(r'\sManagement', '_Management', i)
+        i = re.sub(r'\sAnalyst', '_Analyst', i)
+        i = re.sub(r'\sspeaker', '_speaker', i)
+        i = re.sub(r'\sLearning', '_Learning', i)
+        i = re.sub(r'\send', '_end', i)
+        i = re.sub(r'\sStack', '_Stack', i)
+        i = re.sub(r'\sLead', '_Lead', i)
         i = i.split(' ')
         for j in i:
             if len(j) > 1 and j not in ('with', 'and', 'IT', 'to', 'in', 'for', 'or', 'experience', 'of', 'Project'):
