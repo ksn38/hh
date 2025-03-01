@@ -1,0 +1,103 @@
+,percent
+fastapi,1277
+pytest,660
+kubernetes,385
+kafka,327
+Django,215
+sqlalchemy,349
+rest api,292
+ci/cd,245
+API,187
+QA,200
+docker,126
+gitlab,219
+Spark,294
+clickhouse,166
+RabbitMQ,111
+celery,114
+Selenium,175
+ETL,161
+NoSQL,112
+angular,229
+django rest framework,150
+react,94
+TCP/IP,186
+Bash,81
+asyncio,78
+vue.js,295
+pyqt,158
+typescript,138
+backend,71
+redux,92
+Docker-compose,106
+Sanic,212
+Redis,32
+REST,39
+HTTP,62
+aiohttp,49
+golang,53
+numpy,85
+it,82
+C#,86
+Test case,110
+pytorch,102
+Python,0
+PostgreSQL,0
+JSON,121
+Flask,-1
+go,31
+pandas,18
+Unit Testing,23
+SQL,-16
+elasticsearch,26
+Linux,-19
+MongoDB,-18
+opencv,67
+azure,66
+tensorflow,103
+ORM,45
+Git,-39
+C++,-28
+Jenkins,-11
+Node.js,28
+ml,13
+JavaScript,-39
+Nginx,-20
+aws,-26
+gitlab ci,81
+airflow,44
+MS SQL,-22
+HTML,-32
+Big Data,8
+Android,51
+Qt,72
+graphql,59
+Django Framework,-53
+Agile,37
+swagger,71
+Java,-30
+Tornado,51
+iOS,42
+MySQL,-54
+ansible,58
+Atlassian Jira,-46
+drf,16
+MATLAB,85
+Scrum,-28
+CSS,-56
+js,8
+jira,2
+XML,-14
+PHP,-31
+SOAP,15
+C/C++,-30
+devops,47
+solid,-4
+English,57
+HTML5,-45
+Selenium IDE,-16
+Unix,-51
+jQuery,-42
+ORACLE,5
+Bootstrap,41
+Data Analysis,6
