@@ -82,22 +82,22 @@ for file in files:
     for i in headers:
         i = re.sub(r'[^A-z+#]', ' ', i)
         i = re.sub(r'Data\s', 'Data_', i)
-        i = re.sub(r'\sMode', '_Mode', i)
-        i = re.sub(r'\sManager', '_Manager', i)
-        i = re.sub(r'\sManagement', '_Management', i)
-        i = re.sub(r'\sAnalyst', '_Analyst', i)
-        i = re.sub(r'\sspeaker', '_speaker', i)
-        i = re.sub(r'\sLearning', '_Learning', i)
-        i = re.sub(r'\send', '_end', i)
-        i = re.sub(r'\sStack', '_Stack', i)
-        i = re.sub(r'\sLead', '_Lead', i)
-        i = re.sub(r'\sengine', '_engine', i)
         i = re.sub(r'Capital\s', 'Capital_', i)
-        i = re.sub(r'Framework\s', '_Framework', i)
+        i = re.sub(r'Back\s', 'Back_', i)
+        i = re.sub(r'Front\s', 'Front_', i)
+        for word in ('Mode', 'Manager', 'Management', 'Analyst', 'speaker', 'Kernel', \
+                    'Administrator', 'Learning', 'end', 'Stack', 'Lead', 'engine', \
+                    'Framework', 'System', 'Test', 'Cyber', 'Office', 'Service', 'Business'):
+            i = re.sub(r'\s' + word, '_' + word, i)
         i = i.split(' ')
         for j in i:
-            if len(j) > 1 and j not in ('with', 'and', 'IT', 'to', 'in', 'for', 'or', 'experience', 'of', 'Project'):
+            if len(j) > 1 and j not in ('with', 'and', 'IT', 'to', 'in', 'for', 'or', 'Specialist', \
+                                        'Development', 'developer', 'Developer', 'experience', 'of', \
+                                        'Project', 'Coordinator', 'Developer', 'Solution', 'Expert', \
+                                        'Product', 'Software', 'Release', 'Production', 'Owner', \
+                                        'Application', 'Techno', 'Information'):
                 keywords.append(j)
+
 
     df = pd.DataFrame(sorted(Counter(keywords).items(), key=lambda x: x[1], reverse=True), columns=['tag', 'val']).iloc[:149]
     df['norm_val'] = df.val/df.val.iloc[0]
