@@ -43,7 +43,7 @@ readme = ['## Changing tags from 2021 in %\n### freelancer.com\n']
 freelancer = csv_df('./freelancer/tags_for_PowerBI/')
 freelancer = freelancer.shift()
 freelancer.iloc[0] = ['-','-','-','-']
-freelancer = freelancer.to_csv(sep='|', index=False).replace('\n', '')
+freelancer = freelancer.to_csv(sep='|', index=False)
 readme.append(freelancer)
 
 for i in ('Python', 'php', 'Java', 'Javascript', 'Typescript', 'Frontend', 'C%2B%2B', 'C%23', \
@@ -55,34 +55,34 @@ for i in ('Python', 'php', 'Java', 'Javascript', 'Typescript', 'Frontend', 'C%2B
               x = csv_df('./tags/' + i + '/')
               x = x.shift()
               x.iloc[0] = ['-','-','-','-']
-              x = x.to_csv(sep='|', index=False).replace('\n', '')
+              x = x.to_csv(sep='|', index=False)
               readme.append(x)
           elif i == 'C%2B%2B':
               readme.append('\n### C++\n')
               x = csv_df('./tags/' + i + '/')
               x = x.shift()
               x.iloc[0] = ['-','-','-','-']
-              x = x.to_csv(sep='|', index=False).replace('\n', '')
+              x = x.to_csv(sep='|', index=False)
               readme.append(x)
           else:
               readme.append('\n### ' + i + '\n')
               x = csv_df('./tags/' + i + '/')
               x = x.shift()
               x.iloc[0] = ['-','-','-','-']
-              x = x.to_csv(sep='|', index=False).replace('\n', '')
+              x = x.to_csv(sep='|', index=False)
               readme.append(x)
         
 luxoft = csv_df('./luxoft/keywords_for_PowerBI/')
 luxoft = luxoft.shift()
 luxoft.iloc[0] = ['-','-','-','-']
-luxoft = luxoft.to_csv(sep='|', index=False).replace('\n', '')
+luxoft = luxoft.to_csv(sep='|', index=False)
 readme.append('\n### luxoft\n')
 readme.append(luxoft)
 
 fl = csv_df('./fl/keywords_for_PowerBI/')
 fl = fl.shift()
 fl.iloc[0] = ['-','-','-','-']
-fl = fl.to_csv(sep='|', index=False).replace('\n', '')
+fl = fl.to_csv(sep='|', index=False)
 readme.append('\n### fl.ru\n')
 readme.append(fl)
 
