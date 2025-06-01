@@ -1,0 +1,90 @@
+Date,tag,val
+2024-08-01,A/B тесты,0.04
+2024-08-01,Agile Project Management,0.005
+2024-08-01,Apache Hive,0.01
+2024-08-01,Apache Spark,0.015
+2024-08-01,ArcGIS,0.02
+2024-08-01,Big Data,0.17
+2024-08-01,CV,0.02
+2024-08-01,Churn prediction,0.01
+2024-08-01,DL,0.02
+2024-08-01,DS,0.01
+2024-08-01,Data Analysis,0.085
+2024-08-01,Data Mining,0.02
+2024-08-01,Django Framework,0.01
+2024-08-01,ETL,0.02
+2024-08-01,English,0.01
+2024-08-01,GPT,0.01
+2024-08-01,Geoserver,0.02
+2024-08-01,Git,0.08
+2024-08-01,Google Analytics,0.015
+2024-08-01,HuggingFace,0.01
+2024-08-01,JavaScript,0.02
+2024-08-01,JupyterLab,0.005
+2024-08-01,LLM,0.03
+2024-08-01,LTV prediction,0.01
+2024-08-01,Leaflet,0.02
+2024-08-01,Linux,0.06
+2024-08-01,MLOps,0.015
+2024-08-01,MS SQL,0.03
+2024-08-01,Mathematical Statistics,0.01
+2024-08-01,Mathematics,0.005
+2024-08-01,MySQL,0.015
+2024-08-01,ORACLE,0.015
+2024-08-01,Oracle Pl/SQL,0.01
+2024-08-01,PostgreSQL,0.06
+2024-08-01,Power BI,0.025
+2024-08-01,Python,1.0
+2024-08-01,QGIS,0.02
+2024-08-01,R,0.025
+2024-08-01,RAG,0.01
+2024-08-01,RecSys,0.01
+2024-08-01,SASPlanet,0.02
+2024-08-01,SQL,0.67
+2024-08-01,Scrum,0.005
+2024-08-01,Spark,0.12
+2024-08-01,Teamleading,0.045
+2024-08-01,Ulift modeling,0.01
+2024-08-01,Unix,0.01
+2024-08-01,airflow,0.045
+2024-08-01,apache airflow,0.02
+2024-08-01,bert,0.02
+2024-08-01,catboost,0.03
+2024-08-01,clickhouse,0.02
+2024-08-01,computer vision,0.035
+2024-08-01,data science,0.245
+2024-08-01,data scientist,0.025
+2024-08-01,deep learning,0.05
+2024-08-01,docker,0.085
+2024-08-01,dwh,0.01
+2024-08-01,fastapi,0.02
+2024-08-01,greenplum,0.015
+2024-08-01,hadoop,0.13
+2024-08-01,hive,0.03
+2024-08-01,it,0.045
+2024-08-01,kafka,0.005
+2024-08-01,keras,0.04
+2024-08-01,kubernetes,0.015
+2024-08-01,langchain,0.01
+2024-08-01,lightgbm,0.015
+2024-08-01,machine learning,0.37
+2024-08-01,matplotlib,0.03
+2024-08-01,matplotlib/plotly,0.01
+2024-08-01,ml,0.28
+2024-08-01,mlflow,0.045
+2024-08-01,nlp,0.16499999999999998
+2024-08-01,numpy,0.155
+2024-08-01,opencv,0.02
+2024-08-01,pandas,0.26
+2024-08-01,plotly,0.02
+2024-08-01,presto,0.005
+2024-08-01,pyspark,0.075
+2024-08-01,pytorch,0.215
+2024-08-01,scala,0.01
+2024-08-01,scikit-learn,0.045
+2024-08-01,scipy,0.04
+2024-08-01,seaborn,0.02
+2024-08-01,sklearn,0.035
+2024-08-01,tensorflow,0.075
+2024-08-01,transformers,0.01
+2024-08-01,xgboost,0.025
