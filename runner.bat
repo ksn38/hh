@@ -1,7 +1,7 @@
 @echo off
-python luxoft/luxoft2.py
+python scraper/luxoft2.py
 python scraper/runner.py
 python scraper/freelancer.py
 python scraper/hhApi.py
-python salaries/salaries.py
+python scraper/salaries.py
 pause

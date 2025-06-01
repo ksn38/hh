@@ -23,6 +23,6 @@ for page in range(100):
     freelancer('https://www.freelancer.com/jobs/' + str(page))
     tags_dict = Counter(tags)
     tags_df = pd.DataFrame(tags_dict.items(), columns=['tag', 'val'])
-    tags_df.sort_values('val', ascending=False).to_csv('../freelancer/tags/flcom' + today + '.csv', index=False, encoding='utf-8')
+    tags_df.sort_values('val', ascending=False).to_csv('./freelancer/tags/flcom' + today + '.csv', index=False, encoding='utf-8')
     time.sleep(3)
 
