@@ -1,6 +1,6 @@
 #!/bin/bash
-python3 scraper/luxoft2.py&
-python3 scraper/freelancer.py&
-python3 scraper/runner.py&
-python3 scraper/hhApi.py&
-python3 scraper/salaries.py&
+python3 scrapers/luxoft2.py&
+python3 scrapers/freelancer.py&
+python3 scrapers/runner.py&
+python3 scrapers/hhApi.py&
+python3 scrapers/salaries.py&
