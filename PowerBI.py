@@ -77,17 +77,20 @@ mypath = 'luxoft/source/'
 files = listdir(mypath)
 
 for file in files:
+    print(file)
     keywords = []
-    headers = pd.read_csv(mypath + file, header=None)[1].to_list()
+    headers = pd.read_csv(mypath + file, header=None)[0].to_list()
     for i in headers:
         i = re.sub(r'[^A-z+#]', ' ', i)
         i = re.sub(r'Data\s', 'Data_', i)
         i = re.sub(r'Capital\s', 'Capital_', i)
         i = re.sub(r'Back\s', 'Back_', i)
         i = re.sub(r'Front\s', 'Front_', i)
+        i = re.sub(r'Functional\s', 'Functional_', i)
+        i = re.sub(r'System\s', 'System_', i)
         for word in ('Mode', 'Manager', 'Management', 'Analyst', 'speaker', 'Kernel', \
                     'Administrator', 'Learning', 'end', 'Stack', 'Lead', 'engine', \
-                    'Framework', 'System', 'Test', 'Cyber', 'Office', 'Service', 'Business'):
+                    'Framework', 'Test', 'Cyber', 'Office', 'Service', 'Business'):
             i = re.sub(r'\s' + word, '_' + word, i)
         i = i.split(' ')
         for j in i:
