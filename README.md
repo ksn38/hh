@@ -29,10 +29,10 @@ AutoCAD|27|Word|-38|Website Testing|Discord
 Animation|21|Python|-30|Pinterest|Arduino
 Illustration|18|3D Design|-34|Content Creation|Swift
 Telemarketing|53|Research Writing|-33|Fiction|Android App Development
-Building Architecture|22|PHP|-27|Canva|Google Firebase
-T-Shirts|50|Technical Writing|-35|Database Programming|Deep Learning
-SEO|11|Copy Typing|-37|Social Media Management|Business Writing
-3D Rendering|15|Ghostwriting|-30|Lead Generation|Branding
+Building Architecture|22|PHP|-27|Social Media Management|Google Firebase
+T-Shirts|50|Technical Writing|-35|Lead Generation|Deep Learning
+SEO|11|Copy Typing|-37|Database Programming|Business Writing
+3D Rendering|15|Ghostwriting|-30|Canva|Branding
 Data Mining|30|Node.js|-31|Internet Security|Full Stack Development
 3D Modelling|10|Software Architecture|-26||
 Research|12|Blog|-39||
@@ -67,11 +67,11 @@ seo|29|discord|-41|nestjs|yii
 google|29|html|-23|time|umi
 tiktok|83|end|-36|stm32|ubuntu
 1с|26|youtube|-21|booking|amazon
-vr|60|sql|-36|bybit|postgresql
-blender|58|react|-21|cs2|tok
+vr|60|sql|-36|cs2|postgresql
+blender|58|react|-21|bybit|tok
 word|32|native|-30|bim|getcourse
-elementor|44|api|-18|middle+|tik
-windows|32|js|-18|make|unreal
+elementor|44|api|-18|make|tik
+windows|32|js|-18|middle+|unreal
 django|27|joomla|-23|ml|and
 битрикс24|19|woocommerce|-20|clickup|description
 yandex|51|c++|-28|world|moodle
@@ -82,51 +82,51 @@ backend|22|insales|-32|apps|webasyst
 ### luxoft
 winners|↑|losers|↓|new|dead
 -|-|-|-|-|-
-Android|100|Functional_Safety|-90|Openlink|Integrated
-C++|79|Security|-76|Benefits|Practice
-Packaged|86|BPM|-76|Compensation|Moody
-UX|103|Consulting|-72|Personal|Kondor
-React|56|Pega|-87|Assistant|Trainer
-Business|29|Moodyu|-88|Candidate|Marketing
-Hogan|137|System_Administration|-64|Processing|Solutions_Management
-DWH|148|Infrastructure|-66|Center|BigData_
-Avaloq|282|Scala|-84|Secretary|Hadoop
-SQL|30|Sales|-83|Warehouse|Corporate
-Delivery|47|RPA|-77|Sales_Leader|Branding
-AI|99|Artist|-75|Agile|Employer
-ML|99|Axiom|-64|Professional|Analytics
-etc|20|Engineering|-49||
-Design|67|Administration|-56||
-Analysis|18|ECM|-50||
-Embedded|40|Database|-56||
-UI|71|Appian|-60||
-Teradata|53|Technical|-43||
-MySQL|53|Functional_System_Analysis|-42||
-Orchestrade|83|AUTOSAR|-46||
-VB|12|Program_Management|-60||
-NET|12|DevOps|-35||
-Change_Management|287|Contracting|-62||
-Facilities|176|Master|-47||
-Temenos|25|Scrum|-47||
-Quantum|19|Data_Reporting|-59||
-Coremont|19|Platform|-66||
-specific|19|Quality_Management|-60||
-Vendor|19|Accounting|-60||
-Java|3|MxML|-35||
-Python|5|Release_Management|-58||
-Front_end|10|System_Languages|-45||
-Specific|62|Angular|-36||
-BigData_Development|13|Full_Stack|-34||
-C#|2|PMA|-47||
+Android|100|Functional_Safety|-90|Business_Development|Moody
+C/C++|79|BPM|-76|Openlink|Kondor
+React|56|Pega|-87|Processing|Marketing
+Delivery_Project_Management|59|Application_Security|-87|Secretary/Personal|Solutions_Management
+Hogan|137|Moodyu|-88|Warehouse|BigData_
+Avaloq|282|Project_Management|-66|Sales_Leader|Hadoop
+DWH|148|System_Administration|-64|Agile|Branding
+Business_Analysis|24|Scala|-84||
+AI/ML|99|Information_Security|-66||
+SQL|30|Sales|-82||
+Embedded|40|RPA|-77||
+UI/UX_Design|71|Artist|-75||
+C#/VB.NET|12|Axiom|-64||
+MySQL|53|Engineering|-49||
+T-SQL|53|ECM|-50||
+Teradata|53|Database_Administration|-56||
+Orchestrade|83|Appian|-60||
+Front-end|10|Technical|-43||
+Temenos|25|AUTOSAR|-46||
+Java|3|Functional/System_Analysis|-42||
+Python|5|Program_Management|-60||
+Coremont|19|Master|-47||
+Quantum|19|Scrum|-47||
+BigData_Development|13|Contracting|-62||
+Change_Management|287|Platform|-66||
+UX_Architecture|172|Data_Reporting|-59||
+ERM|7|Quality_Management|-60||
+Datamart|7|Accounting|-60||
+QML|81|Release_Management|-58||
+Qt|81|DevOps|-35||
+Loan_IQ|31|System_Languages|-45||
+JavaScript|2|MxML|-35||
+Oracle|-6|Angular|-36||
+PL/SQL|-6|PMA|-47||
+Atlassian|38|Full_Stack|-34||
+FO|-14|Requirements|-54||
 
 ### EPAM
 winners|↑|losers|↓|new|dead
 -|-|-|-|-|-
 Git|351|Java|31|.net core|Английский — B2 — Средне-продвинутый
 SQL|35|JavaScript|-85|SAP|Английский — B1 — Средний
-kubernetes|1157|SQL|35|База данных: Olap|Spring Framework
-Java|31|Python|82|Cистемы управления базами данных|Agile Project Management
-Python|82|Linux|93|devops|MS SQL
+kubernetes|1157|SQL|35|devops|Spring Framework
+Java|31|Python|82|База данных: Olap|Agile Project Management
+Python|82|Linux|93|Cистемы управления базами данных|MS SQL
 
 ### Python
 winners|↑|losers|↓|new|dead
@@ -149,8 +149,8 @@ API|134|C++|-24|Amazon Web Services|vue
 clickhouse|159|Nginx|-30|dwh|CSS3
 TCP/IP|236|HTML5|-47|AI|Ajax
 golang|142|MongoDB|-15|Kibana|Английский — A2 — Элементарный
-kafka|105|Java|-16|OpenAI|scala
-Docker-compose|167|Python|0|pyspark|ansible
+kafka|105|Java|-16|pyspark|scala
+Docker-compose|167|Python|0|OpenAI|ansible
 QA|95|AngularJS|-39|TDD|Mac Os
 asyncio|85|PHP|-25|OSI|vau.js
 backend|99|REST|-5|LLM|computer vision
@@ -182,8 +182,8 @@ kubernetes|299|JavaScript|-44|grpc|PHP 7
 github|277|Bootstrap|-49|CMS|Doctrine
 kafka|236|Yii|-45|DRY|Less
 laravel|75|Atlassian Jira|-59|KISS|Design Patterns
-golang|185|Zend Framework|-62|grafana|XSS
-ci/cd|289|MVC|-43|Drupal|CSRF
+golang|185|Zend Framework|-62|grafana|CSRF
+ci/cd|289|MVC|-43|Drupal|XSS
 elasticsearch|163|Git|-33|figma|React JS
 gitlab|223|CSS3|-39|react.js|Русский — C2 — В совершенстве
 Битрикс24|169|HTML5|-34|HTTPS|Cистемы управления базами данных
@@ -217,8 +217,8 @@ RabbitMQ|305|Java EE|-58|MS Excel|Английский — A1 — Началь�
 rest api|661|Apache Maven|-53|AQA|AngularJS
 spring boot|248|Spring Framework|-30|web тестирование|Английский — C1 — Продвинутый
 API|446|Git|-28|swagger|jQuery
-QA|452|JavaScript|-39|Java Applets|Английский — A2 — Элементарный
-Selenium|738|Atlassian Jira|-41|Objective-C|Java 8
+QA|452|JavaScript|-39|Objective-C|Английский — A2 — Элементарный
+Selenium|738|Atlassian Jira|-41|Java Applets|Java 8
 Hibernate|277|REST|-17|Spring Web|Design Patterns
 Ruby|336|Apache Tomcat|-55|ActiveMQ|Groovy
 ci/cd|295|Oracle Pl/SQL|-43|Quarkus|HTML5
@@ -228,11 +228,11 @@ Gradle|185|SQL|1|gitlab ci|База данных: Oracle
 Spring Data|293|spring|0|RDBMS|Android SDK
 docker|111|HTML|-10|algorithms|Node.js
 kotlin|98|Agile Project Management|-43|Appium|Cassandra
-gitlab|289|MySQL|-5|Generics|EJB
-kafka|92|aws|-27|Data structure|Cистемы управления базами данных
+gitlab|289|MySQL|-5|Logging|EJB
+kafka|92|aws|-27|Generics|Cистемы управления базами данных
 Python|150|microservices|-15|Collections|MVC
 C++|228|XML|-7|Annotations|Unix
-Unit Testing|149|Linux|14|Logging|Eclipse
+Unit Testing|149|Linux|14|Data structure|Eclipse
 grpc|262|SOAP|11|Docker-compose|Team management
 Redis|93|PostgreSQL|34|helm|TDD
 ORACLE|69|JPA|-6|it|J2EE
@@ -243,10 +243,10 @@ Mockito|267|HTTP|-13|prometheus|OOP
 selenide|154|Jenkins|34|elk|JVM
 JUnit|47|Scrum|22|Apache Cassandra|Java Script
 SVN|121|Maven|36|golang|Ext JS
-Cucumber|225|MongoDB|40|Bash|Big Data
-PostgreSQL|34|Java Servlets|25|Logbrocker|UML
-NoSQL|64|java core|44|graylog|TCP/IP
-java core|44|JUnit|47|Kibana|MS SQL Server
+Cucumber|225|MongoDB|40|Logbrocker|Big Data
+PostgreSQL|34|Java Servlets|25|Bash|UML
+NoSQL|64|java core|44|Java EE, JSP, ORM Hibernate, EJB, JavaScript, JPA, Ajax, ООП, MVC, Atlassian Jira, SQL, XML, Git|TCP/IP
+java core|44|JUnit|47|Middle Java Developer|MS SQL Server
 
 ### Javascript
 winners|↑|losers|↓|new|dead
@@ -258,8 +258,8 @@ typescript|202|CSS|-27|grafana|Английский — C1 — Продвину
 RabbitMQ|433|jQuery|-39|restful api|Английский — A2 — Элементарный
 nestjs|630|vue|-33|Amazon Web Services|SPA
 API|361|Atlassian Jira|-56|devops|PHP5
-Redis|280|CSS3|-21|SurveySparrow|vuex
-kubernetes|682|Bootstrap|-40|Qualtrics|Spring Framework
+Redis|280|CSS3|-21|Qualtrics|vuex
+kubernetes|682|Bootstrap|-40|SurveySparrow|Spring Framework
 ci/cd|628|redux|-21|apache airflow|Unix
 PostgreSQL|194|Less|-45|prometheus|Atlassian Confluence
 nest.js|328|Agile Project Management|-58|Three.js|Adobe Photoshop
@@ -270,8 +270,8 @@ backend|201|Scrum|-25|Apache Hive|React/Redux
 gitlab|219|JavaScript|0|Selenium|Jenkins
 graphql|168|Sass|-13|Kanban|UI
 frontend|123|ReactJS|-5|OAuth|jest
-Express.js|248|Linux|7|BullMQ|Android
-Nginx|172|HTML|9|Nx|npm
+Express.js|248|Linux|7|Nx|Android
+Nginx|172|HTML|9|BullMQ|npm
 HTTP|164|angular|2|HTTPS|SASS/SCSS
 PHP|71|nuxt|-20|wordpress|iOS
 SQL|67|NoSQL|6|cypress|Unity
@@ -279,12 +279,12 @@ react native|163|Java Script|11|Tailwind|blockchain
 Node.js|57|MySQL|24|Testing|Phaser
 nuxt.js|103|Yii|-8|Svelte|Teamleading
 ES6|95|Ajax|9|azure|Team management
-js|51|ASP.NET|-7|tRPC|Angular 2+
-react|38|MongoDB|30|Nest|web
+js|51|ASP.NET|-7|Nest|Angular 2+
+react|38|MongoDB|30|tRPC|web
 figma|125|react|38|vue3|playable adds
 webpack|51|Python|26|highload|vau.js
-scss|105|C#|24|phpMyAdmin|CRM
-MongoDB|30|Symfony|9|JavaScript developer|Entity Framework
+scss|105|C#|24|JavaScript developer|CRM
+MongoDB|30|Symfony|9|phpMyAdmin|Entity Framework
 REST|38|HTML/CSS|19|postman|Cocos2d
 aws|66|REST|38|asp.net core|Leadership Skills
 
@@ -308,25 +308,25 @@ SQL|89|Spring Framework|-45|UML|Leadership Skills
 next.js|163|.NET Framework|-34|Zustand|nodejs
 nestjs|188|js|-31|gcp|azure
 laravel|143|Atlassian Jira|-32|restful api|jira
-solid|125|Git|-21|nextjs|Team management
-JSON|174|redux|-18|Effector|Design Patterns
+solid|125|Git|-21|Effector|Team management
+JSON|174|redux|-18|nextjs|Design Patterns
 PHP|53|Sass|-24|ORM|Atlassian Confluence
 nest.js|129|JavaScript|-14|Amazon Web Services|Hibernate ORM
 figma|62|angular|-7|rust|Analytical skills
-MS SQL|57|C#|-6|Ant Design|ES6+
-react native|46|MVC|-37|HTML5/CSS3|WebGL
-MySQL|38|rxjs|-25|TailwindCSS|Ext JS
-golang|109|Entity Framework|-26|FSD|Unix
-typescript|29|HTML/CSS|-21|vue3|Teamplayer
-graphql|45|Java|-5|Svelte|Yii
-webpack|30|REST|-2|Tailwind|websockets
-HTTP|64|HTML|3|elasticsearch|yii2
+MS SQL|57|C#|-6|FSD|ES6+
+react native|46|MVC|-37|TailwindCSS|WebGL
+MySQL|38|rxjs|-25|vue3|Ext JS
+golang|109|Entity Framework|-26|Ant Design|Unix
+typescript|29|HTML/CSS|-21|Svelte|Teamplayer
+graphql|45|Java|-5|HTML5/CSS3|Yii
+webpack|30|REST|-2|elasticsearch|websockets
+HTTP|64|HTML|3|Tailwind|yii2
 react|16|SPA|-16|ASP.NET MVC|Ruby
-JSON API|88|Node.js|7|SaaS|JUnit
-MongoDB|23|Java Script|-5|Pinia|Business English
-Linux|21|Ajax|-34|fastapi|MS SharePoint
-UI|122|react|16|ansible|web
-Nginx|78|QA|3|it|web api
+JSON API|88|Node.js|7|fastapi|JUnit
+MongoDB|23|Java Script|-5|ansible|Business English
+Linux|21|Ajax|-34|Pinia|MS SharePoint
+UI|122|react|16|SaaS|web
+Nginx|78|QA|3|it|SharePoint Framework
 
 ### Frontend
 winners|↑|losers|↓|new|dead
@@ -349,8 +349,8 @@ PostgreSQL|70|CSS|-21|Solid.js|SVN
 frontend|64|vuex|-38|Tanstack Query|Atlassian Confluence
 jest|123|Sass|-19|АПИ с бэкендом, написанном на python|Stylus
 nuxt|79|SPA|-28|FSD|Django Framework
-react|49|Java|-31|Effector|Angular 2+
-scss|59|MySQL|-21|Vue 3|spring boot
+react|49|Java|-31|Vue 3|Angular 2+
+scss|59|MySQL|-21|Effector|spring boot
 HTTP|82|mobx|-21|NuxtJS|Zeplin
 solid|197|Git|-13|Three.js|E-Commerce
 Agile|89|MongoDB|-29|grpc|.NET Framework
@@ -360,8 +360,8 @@ UI|68|Linux|-14|postman|Babel
 websocket|67|Node.js|-10|it|Vuetify
 SQL|34|JavaScript|0|UI/UX|blockchain
 SSR|69|PHP|-11|Next|Flux
-nuxt.js|51|HTML|10|RxJava|Unix
-redux|17|js|6|frontend-разработка|Teamleading
+nuxt.js|51|HTML|10|frontend-разработка|Unix
+redux|17|js|6|RxJava|Teamleading
 REST|25|Nginx|-14|DDD|English
 Java Script|32|redux|17||
 HTML|10|Pug|-42||
@@ -391,8 +391,8 @@ ARM|41|C/C++|-12|C++17|ml
 opencv|65|CSS|-29|CAN|UI
 Программирование 3D-графики|126|Design Patterns|-18|gdb|winapi
 TCP/IP|27|RTOS|-38|HLSL|QNX
-Agile|92|Git|-5|Crystal|SIP
-RabbitMQ|129|C++|0|SQL Server Profiler|REST
+Agile|92|Git|-5|SQL Server Profiler|SIP
+RabbitMQ|129|C++|0|Crystal|REST
 Windows API|102|Lua|-18|STLC|go
 Bash|20|XML|-17|Conan|С++17
 Qt|15|Linux|8|ImGui|MS Access
@@ -402,8 +402,8 @@ STL|10|Windows|3|Компас-3D|machine learning
 Linux|8|ROS|-33|Linux kernel|Team management
 GCC|73|STL|10|VAAPI|jira
 NoSQL|84|C|6|NGFW|it
-HTTP|66|PHP|-35|3D-графика|Networking
-DirectX|61|MFC|-16|Match3|С++11
+HTTP|66|PHP|-35|Match3|Networking
+DirectX|61|MFC|-16|3D-графика|С++11
 C++|0|SQL|13||
 Redis|106|Qt|15||
 Git|-5|Bash|20||
@@ -437,36 +437,36 @@ SOAP|74|SQL|-4|nats|XML/Xslt
 gitlab|93|jQuery|-17|Docker-compose|Node.js
 Linux|26|WPF|-4|Sass|.netcore
 Python|39|ASP.NET|-3|AutoCAD API|Английский — C1 — Продвинутый
-Entity Framework|14|Oracle Pl/SQL|-33|github actions|Linq2DB
+Entity Framework|14|Oracle Pl/SQL|-33|.NET 6+|Linq2DB
 C++|20|Delphi|-32|Kanban|EntityFramework
-MVVM|69|MySQL|-4|.NET 6+|AR
-typescript|29|CSS|-3|unreal engine|.NET Core 2.2
+MVVM|69|MySQL|-4|github actions|.NET Core 2.2
+typescript|29|CSS|-3|unreal engine|AR
 MS SQL|9|ADO.NET|-35|prometheus|ASP.NET WebApi2
-LINQ|15|Windows Forms|-4|DotNext|Test-driven development
-.net|12|C#|0|webapi|Atlassian Confluence
-MSSQL|73|MS Access|-42|Тестирование API|CRM
+LINQ|15|Windows Forms|-4|Тестирование API|Test-driven development
+.net|12|C#|0|DotNext|Atlassian Confluence
+MSSQL|73|MS Access|-42|webapi|CRM
 C#|0|Git|0||
 Git|0|XML|-3||
 
 ### Golang
 winners|↑|losers|↓|new|dead
 -|-|-|-|-|-
-Apache Kafka|895|C++|-78|Cosmos SDK|Английский — B1 — Средний
-rest api|203|Java|-75|crypto|Английский — B2 — Средне-продвинутый
+Apache Kafka|895|C++|-78|crypto|Английский — B1 — Средний
+rest api|203|Java|-75|Cosmos SDK|Английский — B2 — Средне-продвинутый
 ci/cd|197|Python|-63|Apache Cassandra|Английский — A1 — Начальный
 kubernetes|56|azure|-83|typescript|it
 ssl|202|HTML|-83|fastapi|Docker&Kubernetes
 grpc|49|PHP|-61|.net core|CI/DI
 grafana|152|go lang|-84|NFS|MS Access
-clickhouse|54|Atlassian Jira|-61|SMB|Agile Project Management
-highload|111|C|-72|iSCSI|Английский — A2 — Элементарный
+clickhouse|54|Atlassian Jira|-61|iSCSI|Agile Project Management
+highload|111|C|-72|SMB|Английский — A2 — Элементарный
 github|108|JavaScript|-58|RoadRunner|Teambuilding
 Docker-compose|464|CSS|-76|S3|XML
 API|22|Teamleading|-64|Architecture|TDD
 docker|6|Unix|-67|ISTIO Service Mesh|Английский — C1 — Продвинутый
 gitlab|20|Ruby|-72|swift|microservices
-devops|34|k8s|-57|DNS|iOS
-PostgreSQL|-4|MySQL|-46|HTTPS|Unix systems
+devops|34|k8s|-57|HTTPS|iOS
+PostgreSQL|-4|MySQL|-46|DNS|Unix systems
 golang|-10|SQL|-45|MS SQL Server|Software Development
 NoSQL|10|go|-44|firebird|VFS
 defi|113|MongoDB|-45|Electron|Spring Framework
@@ -476,8 +476,8 @@ HTTP|11|terraform|-64|Architecture Framework|Cистемы управления 
 JSON|63|nats|-55|istio|Atlassian Confluence
 Unit Testing|18|Linux|-34|OpenStack|REST/JSON
 solid|31|Scrum|-56|Software-defined storage|Business English
-blockchain|11|MS SQL|-54|PostgeSQL|Symfony
-backend|-11|REST|-35|English B2|Web/HTTP
+blockchain|11|MS SQL|-54|English B2|Symfony
+backend|-11|REST|-35|PostgeSQL|Web/HTTP
 kafka|-27|Django Framework|-69||
 Linux|-34|Node.js|-46||
 ansible|85|SOAP|-59||
@@ -525,8 +525,8 @@ JavaScript|20|HTML|6|elasticsearch|qlikview
 MySQL|21|CSS|2|asp.net core|PowerShell
 Power BI|23|JavaScript|20|TestRail|Oracle BI
 SQL|0|Python|37|VPN|AngularJS
-HTML|6|MySQL|21|numpy|PHP5
-Django Framework|72|Big Data|-11|Unit Testing|WPF
+HTML|6|MySQL|21|Unit Testing|PHP5
+Django Framework|72|Big Data|-11|numpy|WPF
 
 ### Data scientist
 winners|↑|losers|↓|new|dead
@@ -549,24 +549,24 @@ Big Data|80|SQL|-6|Apache Hive|web security
 xgboost|172|R|-18|Forecasting|Oracle Pl/SQL
 PostgreSQL|137|Python|0|langchain|C#
 airflow|138|opencv|-15|uplift|MS Visio
-nlp|58|MS Excel|-34|Standard ML stack|CRM
-MySQL|175|VBA|-65|Standard NLP stack|Project management
+nlp|58|MS Excel|-34|Standard NLP stack|CRM
+MySQL|175|VBA|-65|Standard ML stack|Project management
 computer vision|74|aws|-36|transformers|JavaScript
 data science|42|tableau|-21|Mathematics|C/C++
-recommender systems|259|elasticsearch|-46|Regex|NER
-hadoop|44|docker|19|AI Copilot|vertica
-Spark|37|MS SQL Server|-23|Fine-tuning|Presentation skills
-sklearn|50|Bash|-42|roberta|Cистемы управления базами данных
-tensorflow|37|dwh|-43|peft|Mathcad
-Power BI|117|keras|9|sft|Hadoop BigData
-hive|48|CV|-9|lora|Kubernates
-docker|19|Spark|37|NoSQL|OLAP DB
+recommender systems|259|elasticsearch|-46|Fine-tuning|NER
+hadoop|44|docker|19|Regex|vertica
+Spark|37|MS SQL Server|-23|AI Copilot|Presentation skills
+sklearn|50|Bash|-42|sft|Cистемы управления базами данных
+tensorflow|37|dwh|-43|roberta|Mathcad
+Power BI|117|keras|9|lora|OLAP DB
+hive|48|CV|-9|peft|Hadoop BigData
+docker|19|Spark|37|NoSQL|Kubernates
 Python|0|data science|42|data|data lake
 it|30|it|30|R-language|Gensim
 SQL|-6|tensorflow|37|Amazon Web Services|Django Framework
 machine learning|-9|ETL|1|RUG|iot
-RecSys|128|hadoop|44|gitlab ci|golang
-keras|9|DL|-32|S3|Analytical skills
+RecSys|128|hadoop|44|greenplum|golang
+keras|9|DL|-32|gitlab ci|Analytical skills
 
 ### Data
 winners|↑|losers|↓|new|dead
@@ -586,8 +586,8 @@ matplotlib|203|teradata|-56|Amazon Redshift|Project management
 ml|75|machine learning|-42|OLAP|JavaScript
 MS Excel|101|Atlassian Jira|-47|fastapi|Английский — A1 — Начальный
 greenplum|77|Bash|-50|RabbitMQ|SSRS
-airflow|72|aws|-44|DBMS|Statistics
-ETL|59|Oracle Pl/SQL|-46|DWH/Data Lake|SSIS
+airflow|72|aws|-44|DWH/Data Lake|Statistics
+ETL|59|Oracle Pl/SQL|-46|DBMS|SSIS
 scikit-learn|170|Google Analytics|-52|Amazon Web Services|Time management
 Cистемы управления базами данных|392|Scrum|-52|Groovy|VBA
 PostgreSQL|34|Analytical skills|-42|data lake|English
@@ -602,11 +602,11 @@ tensorflow|56|SQL|0|typescript|Flask
 BI|27|tableau|-11|Yandex Cloud|Cassandra
 sklearn|73|sas|-41|excel|SSAS
 Python|0|data science|0|PyCharm|Spring Framework
-SQL|0|PowerBI|-18|AWS Athena|Teamplayer
-nlp|9|Business Analysis|-38|FiveTran|Cognos
-jupyter notebook|39|MongoDB|-7|CloudFormation|Powermap
-data science|0|XML|-38|CDK|Power Pivot
-Apache NiFi|70|Business English|-22|AWS S3|mdx
+SQL|0|PowerBI|-18|FiveTran|Teamplayer
+nlp|9|Business Analysis|-38|AWS S3|mdx
+jupyter notebook|39|MongoDB|-7|AWS Athena|Power Pivot
+data science|0|XML|-38|CDK|Cognos
+Apache NiFi|70|Business English|-22|CloudFormation|Query
 
 ### Spark
 winners|↑|losers|↓|new|dead
@@ -615,11 +615,11 @@ apache airflow|1522|hive|-64|mlflow|DBA
 Apache Kafka|975|Spring Framework|-72|gitlab|Английский — A1 — Начальный
 clickhouse|366|Git|-57|gitlab ci|HTML
 Apache Spark|640|Linux|-56|deep learning|QA
-pyspark|481|C++|-63|OLAP|mdx
-greenplum|235|scala|-46|DWH/Data Lake|Cognos
-kubernetes|192|aws|-58|DBMS|SSRS
-airflow|176|Java|-45|A/B тесты|Query
-Apache Hive|342|Atlassian Jira|-54|spring boot|Powermap
+pyspark|481|C++|-63|OLAP|Powermap
+greenplum|235|scala|-46|DBMS|mdx
+kubernetes|192|aws|-58|DWH/Data Lake|Query
+airflow|176|Java|-45|A/B тесты|Cognos
+Apache Hive|342|Atlassian Jira|-54|spring boot|SSRS
 ci/cd|225|Flink|-61|MLOps|English
 dwh|159|kafka|-38|ETL/ELT|BI
 ml|165|MS SQL|-44|Apache NiFi|Team management
@@ -636,15 +636,15 @@ it|86|elasticsearch|-25|scikit-learn|Adobe Photoshop
 Big Data|23|azure|-33|Apache Flink|Internet
 grafana|142|Python|3|Data Vault|ActiveMQ
 hadoop|15|Cassandra|-8|Trino|jira
-Databricks|147|C#|-16|Dask|MS Project
-Redis|145|Scrum|-38|Kaggle|qlikview
+Databricks|147|C#|-16|Kaggle|MS Project
+Redis|145|Scrum|-38|Dask|qlikview
 Python|3|hadoop|15|gcp|Kinesis
 RabbitMQ|134|teradata|-4|ROC-AUC|ASP.NET
-Jenkins|46|MongoDB|-4|ELT|OLAP DB
-SQL|-6|Big Data|23|helm|MS Power BI
+Jenkins|46|MongoDB|-4|ELT|MS Power BI
+SQL|-6|Big Data|23|helm|OLAP DB
 elk|146|tableau|0|PL/pgSQL|Kubernates
-Spark|-9|hdfs|-22|F1-score|Hadoop BigData
-data science|23|react|-11|Proxmox|Mathematical Statistics
+Spark|-9|hdfs|-22|Proxmox|Hadoop BigData
+data science|23|react|-11|F1-score|Mathematical Statistics
 nlp|52|MySQL|3|Superset|Okta
 UML|31|PostgreSQL|46|Google Analytics|Analytical skills
 
@@ -664,8 +664,8 @@ elk|186|MySQL|-22|SSL/TLS|Virtualization
 Docker-compose|431|C#|-48|github|Английский — A2 — Элементарный
 kubernetes|104|C++|-32|keycloak|TFS
 terraform|132|MS SQL|-23|GCC|Apache Maven
-ansible|84|TeamCity|-22|github actions|Chef
-Ubuntu|214|go|-23|Azure Cloud services|Windows Os
+ansible|84|TeamCity|-22|Azure Cloud services|Chef
+Ubuntu|214|go|-23|github actions|Windows Os
 elasticsearch|137|TCP/IP|-17|.NET applications|Mac Os
 haproxy|259|Networking|-25|mlflow|google cloud
 Proxmox|314|SSH|-51|Observability|Continuous Integration
@@ -677,13 +677,13 @@ azure devops|145|JavaScript|-22|Vault|cloud
 Debian|75|Docker Swarm|-39|Настройка серверов Apache|Windows 7
 Zabbix|35|NoSQL|-16|CloudFormation|HTML
 VMware|56|Groovy|-8|TCP|CI\CD
-OpenStack|131|hadoop|-21|Temporal|Unix Shell Scripts
-PostgreSQL|24|Nginx|10|rest api|SVN
+OpenStack|131|hadoop|-21|rest api|Unix Shell Scripts
+PostgreSQL|24|Nginx|10|Temporal|SVN
 openshift|31|Bash|13|VictoriaMetrics|MS Access
 ORACLE|36|k8s|7|MikroTik|Teamleading
 Jenkins|22|Node.js|-6|OpenVPN|blockchain
-kafka|27|Администрирование серверов Linux|15|GitlabCI|google cloud platform
-sre|94|Jenkins|22|Loki|Project management
+kafka|27|Администрирование серверов Linux|15|Loki|google cloud platform
+sre|94|Jenkins|22|GitlabCI|Project management
 Bash|13|Atlassian Confluence|-15||
 Nexus|66|PowerShell|11||
 Администрирование серверов Linux|15|Puppet|0||
@@ -692,11 +692,11 @@ Nexus|66|PowerShell|11||
 winners|↑|losers|↓|new|dead
 -|-|-|-|-|-
 BPMN|271|MS Outlook|-55|Работа с CRM|Английский — B2 — Средне-продвинутый
-PostgreSQL|300|Analytical skills|-62|booster|Английский — B1 — Средний
-1С: Предприятие 8|162|Business English|-70|World of Warcraft|Английский — C1 — Продвинутый
+PostgreSQL|300|Analytical skills|-62|World of Warcraft|Английский — B1 — Средний
+1С: Предприятие 8|162|Business English|-70|PvP|Английский — C1 — Продвинутый
 1С: Бухгалтерия|250|MS PowerPoint|-19|PvE|MS Access
-1С программирование|158|Time management|-54|raider|Английский — A1 — Начальный
-1С: Управление Торговлей|223|CRM|-14|PvP|Teambuilding
+1С программирование|158|Time management|-54|booster|Английский — A1 — Начальный
+1С: Управление Торговлей|223|CRM|-14|raider|Teambuilding
 MS Excel|134|Internet|-30|1с|Leadership Skills
 Android|344|Project management|-31|figma|MS Visio
 MS Word|234|ci/cd|-43|API|Английский — A2 — Элементарный
@@ -722,11 +722,11 @@ QA|83|Google Docs|36|User Story|Public Speaking
 Atlassian Jira|98|B2C продажи|0|UX|tableau
 Битрикс24|151|1С: Розница|-28|terraform|Email маркетинг
 react|102|PHP|46|DNS|Cистемы управления базами данных
-JavaScript|44|Создание конфигурации 1С|14|.net core|Android SDK
-MySQL|61|SQL|55|Intellij IDEA|ERP
+JavaScript|44|Создание конфигурации 1С|14|Intellij IDEA|Android SDK
+MySQL|61|SQL|55|.net core|ERP
 PHP|46|XML|30|grafana|Business Development
 Power BI|130|ml|19|UI|SOAP
-ASP.NET|142|Market Research|-18|BIM|SMS маркетинг
+ASP.NET|142|Market Research|-18|BIM|Direct Marketing
 
 ### Intern_cyr
 winners|↑|losers|↓|new|dead
@@ -739,17 +739,17 @@ winners|↑|losers|↓|new|dead
 Стрессоустойчивость|663|Поиск и привлечение клиентов|-14|Работа с CRM|Работа с людьми
 Консультирование клиентов|687|Пользователь ПК|21|Теплые продажи|Английский — A1 — Начальный
 Аналитическое мышление|255|Прямые продажи|7|Удалённая работа|Вторичная недвижимость
-Сбор и анализ информации|411|Активные продажи|35|прокачка|Управление продажами
-Умение работать в коллективе|393|Навыки продаж|33|игрок|Агентские продажи
-1С: Предприятие 8|278|Умение работать в команде|26|рейды|Подбор недвижимости по запросу клиента
-Работа с большим объемом информации|237|Телефонные переговоры|78|мифик+|Информационные технологии
-Деловая коммуникация|220|Поиск информации в интернет|26|Бустинг|1C: Бухгалтерия
-Аналитический склад ума|417|Креативность|18|Онлайн игры|Организация мероприятий
-Обучение и развитие|197|ООП|44|Игры|Первичная недвижимость
-Клиентоориентированность|213|Проведение презентаций|79|Бустер|Недвижимость
+Сбор и анализ информации|411|Активные продажи|35|Бустер|Управление продажами
+Умение работать в коллективе|393|Навыки продаж|33|рейдер|Агентские продажи
+1С: Предприятие 8|278|Умение работать в команде|26|Онлайн игры|Подбор недвижимости по запросу клиента
+Работа с большим объемом информации|237|Телефонные переговоры|78|игрок|Информационные технологии
+Деловая коммуникация|220|Поиск информации в интернет|26|мифик+|1C: Бухгалтерия
+Аналитический склад ума|417|Креативность|18|рейды|Организация мероприятий
+Обучение и развитие|197|ООП|44|Бустинг|Первичная недвижимость
+Клиентоориентированность|213|Проведение презентаций|79|Геймер|Недвижимость
 1С: Бухгалтерия|358|Организаторские навыки|102|подземелья|Опытный пользователь ПК
-Деловая переписка|175|Заключение договоров|95|Геймер|Аналитические исследования
-Базы данных|234|Холодные продажи|13|рейдер|Обучение
+Деловая переписка|175|Заключение договоров|95|прокачка|Аналитические исследования
+Базы данных|234|Холодные продажи|13|Игры|Обучение
 Деловое общение|154|Подготовка презентаций|104|Выявление потребностей|Ориентация на клиента
 Работа с оргтехникой|310|Управление проектами|63|Педантичность|Управление отношениями с клиентами
 Настройка ПК|252|Подбор персонала|78|1с|Системное мышление
@@ -761,9 +761,9 @@ winners|↑|losers|↓|new|dead
 Документооборот|249|Консультирование|52|Дорожное строительство|Холодные звонки
 Навыки презентации|161|Обучение и развитие|197|Ведение отчётности|Сопровождение сделок
 Навыки переговоров|222|Навыки презентации|161|Малоэтажное строительство|B2C продажи
-Организаторские навыки|102|Работа с документами|121|Бетонные работы|1С-Битрикс
+Организаторские навыки|102|Работа с документами|121|Коттеджное строительство|1С-Битрикс
 Тестирование|165|Многозадачность|91|Высотные работы|Телефонное интервью
-Разработка технических заданий|225|Развитие продаж|82|Коттеджное строительство|Мобильность
+Разработка технических заданий|225|Развитие продаж|82|Бетонные работы|Мобильность
 Телефонные переговоры|78|Тестирование|165|Монтаж металлоконструкций|Наполнение контентом
 B2B Продажи|241|Анализ данных|154|Умение учиться|Консультирование клиентов по телефону
 Коммуникативные навыки|310|Деловая коммуникация|220|Бумажный документооборот|Ведение клиентской базы

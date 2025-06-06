@@ -81,16 +81,15 @@ for file in files:
     keywords = []
     headers = pd.read_csv(mypath + file, header=None)[0].to_list()
     for i in headers:
-        i = re.sub(r'[^A-z+#]', ' ', i)
-        i = re.sub(r'Data\s', 'Data_', i)
-        i = re.sub(r'Capital\s', 'Capital_', i)
-        i = re.sub(r'Back\s', 'Back_', i)
-        i = re.sub(r'Front\s', 'Front_', i)
-        i = re.sub(r'Functional\s', 'Functional_', i)
-        i = re.sub(r'System\s', 'System_', i)
+        i = i.replace('/ ', ' ')
+        i = re.sub(r'[^A-z+#.\/-]', ' ', i)
+        for word in ('Data', 'Capital', 'Back', 'Front', 'Functional', 'System', \
+                    'Business', 'Delivery', 'Loan'):
+            i = re.sub(r'' + word + '\s', word + '_', i)
         for word in ('Mode', 'Manager', 'Management', 'Analyst', 'speaker', 'Kernel', \
                     'Administrator', 'Learning', 'end', 'Stack', 'Lead', 'engine', \
-                    'Framework', 'Test', 'Cyber', 'Office', 'Service', 'Business'):
+                    'Framework', 'Test', 'Cyber', 'Office', 'Service', 'Business', \
+                    'Design', 'Architecture', 'Security', 'Administration'):
             i = re.sub(r'\s' + word, '_' + word, i)
         i = i.split(' ')
         for j in i:
@@ -98,7 +97,11 @@ for file in files:
                                         'Development', 'developer', 'Developer', 'experience', 'of', \
                                         'Project', 'Coordinator', 'Developer', 'Solution', 'Expert', \
                                         'Product', 'Software', 'Release', 'Production', 'Owner', \
-                                        'Application', 'Techno', 'Information', 'is'):
+                                        'Application', 'Techno', 'Information', 'is', 'etc.', 'specific', \
+                                        'Specific', 'Facilities', 'Benefits', 'Compensation', 'Packaged', \
+                                        'Informatica', 'Vendor', 'BO', 'IQ', 'Center', 'Consulting', \
+                                        'Infrastructure', 'Trainer', 'Professional', 'Practice', 'Assistant', \
+                                        'Integrated', 'Candidate', 'Corporate', 'Domain'):
                 keywords.append(j)
 
 

@@ -2,7 +2,7 @@ from os import listdir
 import re
 from collections import Counter, OrderedDict
 
-search = 'Credit'
+search = 'Atlassian'
 
 mypath = '../luxoft/source/'
 keywords = []
