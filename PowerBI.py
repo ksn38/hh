@@ -80,16 +80,18 @@ for file in files:
     print(file)
     keywords = []
     headers = pd.read_csv(mypath + file, header=None)[0].to_list()
+    headers.extend(pd.read_csv(mypath + file, header=None)[1].to_list())
     for i in headers:
         i = i.replace('/ ', ' ')
         i = re.sub(r'[^A-z+#.\/-]', ' ', i)
         for word in ('Data', 'Capital', 'Back', 'Front', 'Functional', 'System', \
-                    'Business', 'Delivery', 'Loan'):
+                    'Business', 'Delivery', 'Loan', 'Technical', 'Algorithm'):
             i = re.sub(r'' + word + '\s', word + '_', i)
         for word in ('Mode', 'Manager', 'Management', 'Analyst', 'speaker', 'Kernel', \
                     'Administrator', 'Learning', 'end', 'Stack', 'Lead', 'engine', \
                     'Framework', 'Test', 'Cyber', 'Office', 'Service', 'Business', \
-                    'Design', 'Architecture', 'Security', 'Administration'):
+                    'Design', 'Architecture', 'Security', 'Administration', 'Master', \
+                    'Architect', 'Programmer', 'Analysis', 'Engine'):
             i = re.sub(r'\s' + word, '_' + word, i)
         i = i.split(' ')
         for j in i:
@@ -101,7 +103,8 @@ for file in files:
                                         'Specific', 'Facilities', 'Benefits', 'Compensation', 'Packaged', \
                                         'Informatica', 'Vendor', 'BO', 'IQ', 'Center', 'Consulting', \
                                         'Infrastructure', 'Trainer', 'Professional', 'Practice', 'Assistant', \
-                                        'Integrated', 'Candidate', 'Corporate', 'Domain'):
+                                        'Integrated', 'Candidate', 'Corporate', 'Domain', 'Contracting', \
+                                        'Platform', 'Processing', 'Adventurer', 'exp', 'exp.', 'Engineering'):
                 keywords.append(j)
 
 
