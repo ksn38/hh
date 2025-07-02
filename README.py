@@ -88,20 +88,20 @@ readme = ['## Changing tags from 2021 in %\n### freelancer.com\n']
 freelancer = csv_df('./freelancer/tags_for_PowerBI/')
 freelancer = freelancer.shift()
 freelancer.iloc[0] = ['-','-','-','-','-','-']
-freelancer = freelancer.to_csv(sep='|', index=False)
+freelancer = freelancer.to_csv(sep='|', lineterminator='\n', index=False)
 readme.append(freelancer)
 
 fl = csv_df('./fl/keywords_for_PowerBI/')
 fl = fl.shift()
 fl.iloc[0] = ['-','-','-','-','-','-']
-fl = fl.to_csv(sep='|', index=False)
+fl = fl.to_csv(sep='|', lineterminator='\n', index=False)
 readme.append('\n### fl.ru\n')
 readme.append(fl)
 
 luxoft = csv_df('./luxoft/keywords_for_PowerBI/')
 luxoft = luxoft.shift()
 luxoft.iloc[0] = ['-','-','-','-','-','-']
-luxoft = luxoft.to_csv(sep='|', index=False)
+luxoft = luxoft.to_csv(sep='|', lineterminator='\n', index=False)
 readme.append('\n### luxoft\n')
 readme.append(luxoft)
 
@@ -113,23 +113,24 @@ for i in ('EPAM', 'Python', 'php', 'Java', 'Javascript', 'Frontend', 'C%2B%2B', 
               x = csv_df('./tags/' + i + '/')
               x = x.shift()
               x.iloc[0] = ['-','-','-','-','-','-']
-              x = x.to_csv(sep='|', index=False)
+              x = x.to_csv(sep='|', lineterminator='\n', index=False)
               readme.append(x)
           elif i == 'C%2B%2B':
               readme.append('\n### C++\n')
               x = csv_df('./tags/' + i + '/')
               x = x.shift()
               x.iloc[0] = ['-','-','-','-','-','-']
-              x = x.to_csv(sep='|', index=False)
+              x = x.to_csv(sep='|', lineterminator='\n', index=False)
               readme.append(x)
           else:
               readme.append('\n### ' + i + '\n')
               x = csv_df('./tags/' + i + '/')
               x = x.shift()
               x.iloc[0] = ['-','-','-','-','-','-']
-              x = x.to_csv(sep='|', index=False)
+              x = x.to_csv(sep='|', lineterminator='\n', index=False)
               readme.append(x)
 
 f = open('README.md', 'w', encoding='utf-8')
 x = ''.join(map(str, readme))
 f.write(x.replace('.0', ''))
+print(readme)
