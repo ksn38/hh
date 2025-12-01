@@ -1,0 +1,99 @@
+Date,tag,val
+2025-11-01,A/B тесты,0.0575
+2025-11-01,AI,0.0525
+2025-11-01,API,0.0175
+2025-11-01,Amplitude,0.015
+2025-11-01,Apache Kafka,0.135
+2025-11-01,Apache Spark,0.05
+2025-11-01,Atlassian Confluence,0.0475
+2025-11-01,Atlassian Jira,0.0475
+2025-11-01,Azure Fabric,0.02
+2025-11-01,Azure Machine Learning,0.02
+2025-11-01,Bash,0.0225
+2025-11-01,Big Data,0.24
+2025-11-01,BigQuery,0.02
+2025-11-01,CV,0.025
+2025-11-01,DAX,0.035
+2025-11-01,Data Analysis,0.095
+2025-11-01,Data Factory,0.02
+2025-11-01,Data Governance,0.015
+2025-11-01,Data Mining,0.015
+2025-11-01,Data Pipelines,0.02
+2025-11-01,Databricks,0.065
+2025-11-01,Dataflow Gen2,0.02
+2025-11-01,ETL,0.2625
+2025-11-01,ETL/ELT,0.0275
+2025-11-01,GDPR,0.0225
+2025-11-01,Git,0.1275
+2025-11-01,Groovy,0.0425
+2025-11-01,IAM,0.02
+2025-11-01,JSON,0.015
+2025-11-01,Java,0.0725
+2025-11-01,LLM,0.04
+2025-11-01,Lakehouse,0.02
+2025-11-01,Linux,0.075
+2025-11-01,MS Excel,0.065
+2025-11-01,MS SQL,0.05
+2025-11-01,MS SQL Server,0.0225
+2025-11-01,Microsoft Fabric,0.02
+2025-11-01,Microsoft Sentinel,0.02
+2025-11-01,MySQL,0.03
+2025-11-01,NoSQL,0.0325
+2025-11-01,Notebooks,0.02
+2025-11-01,ORACLE,0.0425
+2025-11-01,PostgreSQL,0.2275
+2025-11-01,Power BI,0.1625
+2025-11-01,Python,1.0
+2025-11-01,R,0.04
+2025-11-01,S3,0.02
+2025-11-01,SAST,0.02
+2025-11-01,SCA,0.02
+2025-11-01,SIEM platforms,0.02
+2025-11-01,SOC 2,0.02
+2025-11-01,SQL,0.86
+2025-11-01,SQL Server Profiler,0.015
+2025-11-01,Snowflake,0.0225
+2025-11-01,Spark,0.095
+2025-11-01,Splunk,0.02
+2025-11-01,Synapse Data Engineering,0.02
+2025-11-01,Synapse ML,0.02
+2025-11-01,Unity Catalog,0.02
+2025-11-01,airflow,0.045
+2025-11-01,apache airflow,0.1875
+2025-11-01,aws,0.0725
+2025-11-01,catboost,0.0325
+2025-11-01,ci/cd,0.055
+2025-11-01,clickhouse,0.2325
+2025-11-01,computer vision,0.03
+2025-11-01,cybersecurity,0.0225
+2025-11-01,data science,0.060000000000000005
+2025-11-01,deep learning,0.055
+2025-11-01,docker,0.1175
+2025-11-01,dwh,0.1175
+2025-11-01,fastapi,0.02
+2025-11-01,gitlab,0.015
+2025-11-01,grafana,0.045
+2025-11-01,greenplum,0.0725
+2025-11-01,hadoop,0.14
+2025-11-01,it,0.03
+2025-11-01,jupyter notebook,0.0325
+2025-11-01,kafka,0.03
+2025-11-01,kubernetes,0.065
+2025-11-01,machine learning,0.055
+2025-11-01,matplotlib,0.0225
+2025-11-01,ml,0.135
+2025-11-01,mlflow,0.05
+2025-11-01,nlp,0.0425
+2025-11-01,numpy,0.09
+2025-11-01,opencv,0.0175
+2025-11-01,pandas,0.1875
+2025-11-01,prometheus,0.0225
+2025-11-01,pyspark,0.06
+2025-11-01,pytorch,0.1125
+2025-11-01,rest api,0.025
+2025-11-01,scala,0.0425
+2025-11-01,scikit-learn,0.0775
+2025-11-01,tableau,0.0725
+2025-11-01,tensorflow,0.07
+2025-11-01,vertica,0.0225
+2025-11-01,xgboost,0.0225
